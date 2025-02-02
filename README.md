@@ -43,8 +43,3 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
 ---
-
-Blessings
-
----
-
