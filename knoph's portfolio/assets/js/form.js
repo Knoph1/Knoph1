@@ -27,9 +27,8 @@ form.addEventListener('submit', async (e) => {
 
             // Handle the response from Formspree
             if (response.ok) {
-                const result = await response.json();
                 displaySuccessMessage('Message sent successfully!');
-                form.reset();
+                form.reset(); // Reset the form after success
             } else {
                 displayErrorMessage('Failed to send message. Please try again later.');
             }
