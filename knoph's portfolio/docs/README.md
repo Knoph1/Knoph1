@@ -66,7 +66,7 @@ You can reach me via:
 
 - 📧 Email: [knophayieko@gmail.com](mailto:knophayieko@gmail.com)  
 - 🐦 GitHub: [github.com/knoph1](https://github.com/knoph1)  
-- 💼 LinkedIn: [linkedin.com/in/knophayieko](https://www.linkedin.com/in/knophayieko)
+- 💼 LinkedIn: [linkedin.com/in/knophayieko](https://ke.linkedin.com/in/knoph-ayieko-83464918a)
 
 ---
 
