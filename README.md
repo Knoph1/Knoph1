@@ -22,7 +22,7 @@
 
 ### [Knoph A.](https://github.com/Knoph1)
 
-*Copyright **(c)** 15th January, 2025* - Wednesday
+*&copy; <span id="year"></span> | Knoph O.L A. | All Rights Reserved.
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
 
