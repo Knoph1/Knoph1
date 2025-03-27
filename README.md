@@ -1,4 +1,4 @@
-> *Greetings from,* **[Knoph O.L A.](https://github.com/Knoph1)**  👋
+> *Greetings from,* **[Knoph](https://github.com/Knoph1)**  👋
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
@@ -20,7 +20,9 @@
 
 ![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
 
-### [Knoph A.](https://github.com/Knoph1)
+### [Knoph O.L A.](https://github.com/Knoph1)
+
+__Official Portfolio:__  c
 
 &copy; 2025 | Knoph O.L A. | All Rights Reserved.
 
