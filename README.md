@@ -2,7 +2,7 @@
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
-> *Welcome to my *GitHub* profile !*
+> *Welcome to my *GitHub* profile*
 
 ---
 
@@ -22,7 +22,7 @@
 
 ### [Knoph O.L A.](https://github.com/Knoph1)
 
-_Official Portfolio:_  **[Knoph's Portfolio]([https://github.com/Knoph1](https://knoph1.github.io/Knoph-s-Portfolio/))**
+_Official Portfolio:_ **[Knoph's Portfolio](https://knoph1.github.io/Knoph-s-Portfolio/)**
 
 &copy; 2025 | Knoph O.L A. | All Rights Reserved.
 
