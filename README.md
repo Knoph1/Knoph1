@@ -1,4 +1,4 @@
-> *Greetings from,* **[Knoph O. A.](https://github.com/Knoph1)**  👋
+> *Greetings from,* **[Knoph O.L A.](https://github.com/Knoph1)**  👋
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
@@ -24,6 +24,16 @@
 
 &copy; 2025 | Knoph O.L A. | All Rights Reserved.
 
+---
+
+[![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
+[![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
+[![Website](https://img.shields.io/badge/Website-Knoph1-blue?style=flat&logo=web)](https://github.com/Knoph1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://linkedin.com/in/knoph-ayieko-83464918a)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
+
+---
+
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
 
 <div align="left">
@@ -33,13 +43,5 @@
     </a>
   </p>
 </div>
-
----
-
-[![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
-[![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
-[![Website](https://img.shields.io/badge/Website-Knoph1-blue?style=flat&logo=web)](https://github.com/Knoph1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://linkedin.com/in/knoph-ayieko-83464918a)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
 ---
