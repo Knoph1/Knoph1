@@ -20,11 +20,11 @@
 
 ![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
 
-### [Knoph O.L A.](https://github.com/Knoph1)
+### [Knoph O. Ayieko](https://github.com/Knoph1)
 
 _Official Portfolio:_ **[Knoph's Portfolio](https://knoph1.github.io/Knoph-s-Portfolio/)**
 
-&copy; 2025 | Knoph O.L A. | All Rights Reserved.
+&copy; 2025 | Knoph O. Ayieko | All Rights Reserved.
 
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
 [![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
