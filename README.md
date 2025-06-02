@@ -22,7 +22,7 @@
 
 ### [Knoph Ayieko](https://github.com/Knoph1)
 
-_Official Portfolio:_ **[Knoph.dev](https://www.knoph.dev/)**
+_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 &copy; 2025 | Knoph Ayieko | All Rights Reserved.
 
