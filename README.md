@@ -24,7 +24,7 @@
 
 _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
-&copy; 2025 | Knoph Ayieko | All Rights Reserved.
+&copy; 2025 Knoph Ayieko | All Rights Reserved.
 
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
 [![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
