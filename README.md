@@ -1,4 +1,4 @@
-> *Greetings from, I,* **[Knoph Ayieko](https://github.com/Knoph1)**  👋
+*Greetings from, I,* **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
@@ -9,11 +9,11 @@
 **General Stats**
 
 <div align="flex">
-  
+
   ![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs,prs)
-  
+
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact)
-  
+
 </div>
 
 ---
@@ -34,6 +34,26 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
 
+---
+
+## 💖Sponsor My Work
+
+I’m building impactful, open-source tech and educational tools across Africa.
+
+Your sponsorship helps me:
+- Build free, accessible digital platforms and resources for learning and small businesses
+- Contribute to public projects that serve under-served communities
+- Pursue postgraduate education and IT certifications
+- Run the O.L Foundation to train, mentor and uplift the next generation of devs
+
+Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling purpose and progress.**
+
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-Knoph%20Ayieko-%23ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Knoph1)
+
+Thank you for supporting African tech and dreams that matter! 🌍🚀
+
+---
+
 <div align="left">
   <p>
     <a href="https://github.com/Knoph1">
@@ -41,5 +61,3 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
     </a>
   </p>
 </div>
-
----
