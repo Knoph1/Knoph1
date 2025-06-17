@@ -54,17 +54,6 @@ Thank you for supporting African tech and dreams that matter! 🌍🚀
 
 ---
 
-## 🧊 Arctic Code Vault Contributor
-
-![Arctic Code Vault Contributor](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-blue?style=for-the-badge&logo=github)
-
-> This badge is awarded to GitHub users who contributed to public repositories that were archived in the 2020 GitHub Archive Program.  
-> The source code is now preserved in the Arctic World Archive for 1,000 years.
-
-**@Knoph1** is proudly one of the developers whose code was preserved in the frozen north. 🌍❄️
-
----
-
 ### 📜 Learn More
 - [GitHub Archive Program](https://archiveprogram.github.com/)
 - [Arctic World Archive](https://arcticworldarchive.org/)
