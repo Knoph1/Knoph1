@@ -30,7 +30,9 @@ Your sponsorship helps me:
 
 Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling purpose and progress.**
 
-[![Sponsor Me](https://img.shields.io/badge/Sponsor-Knoph%20Ayieko-%23ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Knoph1)  Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-Knoph%20Ayieko-%23ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Knoph1)
+
+Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---
 
@@ -54,7 +56,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   
   <!-- Quote and Attribution (Right, two lines stacked) -->
   <div>
-    <p style="margin: 0; font-style: italic;"> *“Build for people. Code with purpose. Collaborate for impact.”* </p>
+    <p style="margin: 0; font-style: italic, bold;">“Build for people. Code with purpose. Collaborate for impact.”</p>
     <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
   </div>
 
