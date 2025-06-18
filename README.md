@@ -37,8 +37,8 @@ Thank you for supporting African tech and dreams that matter! 🌍🚀
 ---
 
 ### 📜 Learn More
-- [GitHub Archive Program](https://archiveprogram.github.com/)
-- [Arctic World Archive](https://arcticworldarchive.org/)
+
+[GitHub Archive Program](https://archiveprogram.github.com/) | [Arctic World Archive](https://arcticworldarchive.org/)
 
 ---
 
@@ -54,19 +54,17 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
   
-  <!-- GitHub Icon (Left) -->
-  <div>
-    <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40" style="vertical-align: middle;">
-    </a>
-  </div>
+  <!-- GitHub Icon -->
+  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
+  </a>
 
-  <!-- Quote and Attribution (Right) -->
-  <div style="text-align: right;">
+  <!-- Quote and Attribution -->
+  <div style="text-align: left;">
     <p style="margin: 0; font-style: italic;">“Build for people. Code with purpose. Collaborate for impact.”</p>
-    <p style="margin: 0; font-weight: bold;">@ 2025 | knoph.dev</p>
+    <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
   </div>
 
 </div>
