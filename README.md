@@ -52,12 +52,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
 
-<div style="display: flex; align-items: center; gap: 16px;">
-  
-  <!-- GitHub Icon -->
-  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
-  </a>
+<div style="display: flex; align-items: left; gap: 16px;">
 
   <!-- Paragraphs aligned to the left of the icon -->
   <div style="display: flex; flex-direction: column; justify-content: center;">
@@ -65,6 +60,9 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
     <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
   </div>
 
-</div>
+   <!-- GitHub Icon -->
+  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
+  </a>
 
----
+</div>
