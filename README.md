@@ -10,9 +10,10 @@
 
 <div align="flex">
 
-  ![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact)
-
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact)
+  <!-- GitHub Stats with "contribs" hidden -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
 
 </div>
 
@@ -23,8 +24,6 @@
 ### [Knoph Ayieko](https://github.com/Knoph1)
 
 _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
-
-&copy; 2025 Knoph Ayieko | All Rights Reserved.
 
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
 [![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
@@ -59,10 +58,19 @@ Thank you for supporting African tech and dreams that matter! 🌍🚀
 
 ---
 
-<div align="left">
-  <p>
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  
+  <!-- Left Side: GitHub Icon -->
+  <div>
     <a href="https://github.com/Knoph1">
-      <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
     </a>
-  </p>
+  </div>
+  
+  <!-- Right Side: Quote and Attribution -->
+  <div style="text-align: right;">
+    <em>“Build for people. Code with purpose. Collaborate for impact.”</em><br>
+    <span><strong>@ 2025 | knoph.dev</strong></span>
+  </div>
+
 </div>
