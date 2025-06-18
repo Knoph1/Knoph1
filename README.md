@@ -6,7 +6,7 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📈GitHub Stats
 
 <div align="flex">
 
@@ -54,15 +54,15 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 <div style="display: flex; align-items: center;">
   
-  <!-- GitHub Icon (Left) -->
-  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
-  </a>
-  
   <!-- Quote and Attribution (Right, two lines stacked) -->
   <div>
     <p style="margin: 0; font-style: italic;">“Build for people. Code with purpose. Collaborate for impact.”</p>
     <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
   </div>
+
+  <!-- GitHub Icon (Left) -->
+  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
+  </a>
 
 </div>
