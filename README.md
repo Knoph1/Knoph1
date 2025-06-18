@@ -10,8 +10,8 @@
 
 <div align="flex">
 
-  <!-- GitHub Stats with "issues" and "contribs" hidden -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs,issues" />
+  <!-- GitHub Stats with "contribs" hidden -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
 
@@ -68,18 +68,3 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 </div>
 
 ---
-
-<div style="display: flex; align-items: center;">
-  
-  <!-- Quote and Attribution (Right, two lines stacked) -->
-  <div>
-    <p style="margin: 0; font-style: italic, bold;">“Build for people. Code with purpose. Collaborate for impact.”</p>
-    <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
-  </div>
-
-  <!-- GitHub Icon (Left) -->
-  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
-  </a>
-
-</div>
