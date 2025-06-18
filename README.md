@@ -38,13 +38,12 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 ## 💖Sponsor My Work
 
-I’m building impactful, open-source tech and educational tools across Africa.
+I’m building impactful, open-source tech and educational tools across Africa to the globe.
 
 Your sponsorship helps me:
 - Build free, accessible digital platforms and resources for learning and small businesses
 - Contribute to public projects that serve under-served communities
-- Pursue postgraduate education and IT certifications
-- Run the O.L Foundation to train, mentor and uplift the next generation of devs
+- Aid O.L Foundation to train, mentor and uplift the next generation of devs
 
 Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling purpose and progress.**
 
