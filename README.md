@@ -19,22 +19,6 @@
 
 ---
 
-![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
-
-### [Knoph Ayieko](https://github.com/Knoph1)
-
-_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
-
-[![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
-[![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
-[![Website](https://img.shields.io/badge/Website-knoph.dev-blue?style=flat&logo=google-chrome)](https://knoph.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
-
-**Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
-
----
-
 ## 💖Sponsor My Work
 
 I’m building impactful, open-source tech and educational tools across Africa to the globe.
@@ -58,19 +42,33 @@ Thank you for supporting African tech and dreams that matter! 🌍🚀
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
+
+### [Knoph Ayieko](https://github.com/Knoph1)
+
+_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
+
+[![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
+[![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
+[![Website](https://img.shields.io/badge/Website-knoph.dev-blue?style=flat&logo=google-chrome)](https://knoph.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
+
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
   
-  <!-- Left Side: GitHub Icon -->
+  <!-- GitHub Icon (Left) -->
   <div>
-    <a href="https://github.com/Knoph1">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
+    <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40" style="vertical-align: middle;">
     </a>
   </div>
-  
-  <!-- Right Side: Quote and Attribution -->
+
+  <!-- Quote and Attribution (Right) -->
   <div style="text-align: right;">
-    <em>“Build for people. Code with purpose. Collaborate for impact.”</em><br>
-    <span><strong>@ 2025 | knoph.dev</strong></span>
+    <p style="margin: 0; font-style: italic;">“Build for people. Code with purpose. Collaborate for impact.”</p>
+    <p style="margin: 0; font-weight: bold;">@ 2025 | knoph.dev</p>
   </div>
 
 </div>
+
+**Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
