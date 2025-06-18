@@ -30,9 +30,7 @@ Your sponsorship helps me:
 
 Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling purpose and progress.**
 
-[![Sponsor Me](https://img.shields.io/badge/Sponsor-Knoph%20Ayieko-%23ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Knoph1)
-
-Thank you for supporting African tech and dreams that matter! 🌍🚀
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-Knoph%20Ayieko-%23ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Knoph1)  Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---
 
