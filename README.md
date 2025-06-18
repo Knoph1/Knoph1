@@ -10,18 +10,9 @@
 
 <div align="flex">
 
-  ![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs,prs)
+  ![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact)
 
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact)
-
-</div>
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=knoph1&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1&layout=compact&theme=radical)
 
 </div>
 
