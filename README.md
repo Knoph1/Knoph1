@@ -16,6 +16,15 @@
 
 </div>
 
+## 📈 GitHub Stats
+
+<div align="center">
+
+![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=knoph1&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1&layout=compact&theme=radical)
+
+</div>
+
 ---
 
 ![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
