@@ -26,7 +26,7 @@ I’m building impactful, open-source tech and educational tools across Africa t
 Your sponsorship helps me:
 - Build free, accessible digital platforms and resources for learning and small businesses
 - Contribute to public projects that serve under-served communities
-- Aid O.L Foundation to train, mentor and uplift the next generation of devs
+- Aid **O.L Foundation** to train, mentor and uplift the next generation of devs
 
 Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling purpose and progress.**
 
@@ -56,7 +56,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   
   <!-- Quote and Attribution (Right, two lines stacked) -->
   <div>
-    <p style="margin: 0; font-style: italic;">“Build for people. Code with purpose. Collaborate for impact.”</p>
+    <p style="margin: 0; font-style: italic;"> *“Build for people. Code with purpose. Collaborate for impact.”* </p>
     <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
   </div>
 
