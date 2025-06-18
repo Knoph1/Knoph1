@@ -10,8 +10,8 @@
 
 <div align="flex">
 
-  <!-- GitHub Stats with "contribs" hidden -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+  <!-- GitHub Stats with "issues" and "contribs" hidden -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs,issues" />
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
 
@@ -51,6 +51,23 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 ---
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
+
+<div style="display: flex; align-items: center; gap: 16px;">
+  
+  <!-- GitHub Icon -->
+  <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
+  </a>
+
+  <!-- Paragraphs aligned to the left of the icon -->
+  <div style="display: flex; flex-direction: column; justify-content: center;">
+    <p style="margin: 0; font-style: italic;">“Build for people. Code with purpose. Collaborate for impact.”</p>
+    <p style="margin: 0; font-weight: bold;">@ 2025 | Knoph Ayieko</p>
+  </div>
+
+</div>
+
+---
 
 <div style="display: flex; align-items: center;">
   
