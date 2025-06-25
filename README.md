@@ -6,7 +6,7 @@
 
 ---
 
-## 📈GitHub Stats
+## 📈 GitHub Stats
 
 <div align="flex">
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 💖Sponsor My Work
+## 💖 Sponsor My Work
 
 I’m building impactful, open-source tech and educational tools across Africa to the globe.
 
