@@ -66,3 +66,11 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   </a>
 
 </div>
+
+---
+
+<!-- Ending --!>
+
+The End
+
+---
