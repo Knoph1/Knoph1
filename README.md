@@ -50,7 +50,11 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 ---
 
+<!-- Conclusion --!>
+
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**
+
+<!-- Footer closure --!>
 
 <div style="display: flex; align-items: left; gap: 16px;">
 
@@ -68,7 +72,3 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 </div>
 
 ---
-
-// End product
-
-The End
