@@ -5,44 +5,7 @@
 > *Welcome to my **GitHub** profile*
 
 ---  
-## 📈 GitHub Stats  
-<!-- Interactive Reveal (click-to-show effect) -->
-<details>
-  <summary>Click to reveal live statistics ✨</summary>
-  <div align="left">
-  <!-- GitHub Stats with system theme detection -->
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs" alt="Knoph's GitHub Stats" />
-  </picture>
-  <!-- Top Languages with system theme detection -->
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact" alt="Top Languages" />
-  </picture>
-  </div>
-</details>
-
----
-
----
----
-
-## ​ GitHub Stats
+## 📈 GitHub Stats
 
 <details>
   <summary>Click to reveal live statistics ✨</summary>
@@ -82,6 +45,20 @@
 
   </div>
 </details>
+
+---
+
+---
+
+## 📈 GitHub Stats  
+
+<!-- Dark Mode -->
+[![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical#gh-dark-mode-only)](https://github.com/Knoph1)
+[![Knoph's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical#gh-dark-mode-only)](https://github.com/Knoph1)
+
+<!-- Light Mode -->
+[![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default#gh-light-mode-only)](https://github.com/Knoph1)
+[![Knoph's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default#gh-light-mode-only)](https://github.com/Knoph1)
 
 ---  
 ## 💖 Sponsor My Work  
