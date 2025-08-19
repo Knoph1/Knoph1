@@ -6,7 +6,7 @@
 ## 📈 GitHub Stats  
 <!-- Interactive Reveal (click-to-show effect) -->
 <details>
-  <summary>Click to reveal live stats✨</summary>
+  <summary>Click to reveal live statistics✨</summary>
   <div align="left">
   <!-- GitHub Stats with "contribs" hidden -->
   <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
@@ -27,9 +27,9 @@ Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling pu
 Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---  
-![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  
-### [Knoph Ayieko](https://github.com/Knoph1)  
-_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**  
+![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  **[Knoph Ayieko](https://github.com/Knoph1)**  
+_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
+
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
 [![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
 [![Website](https://img.shields.io/badge/Website-knoph.dev-blue?style=flat&logo=google-chrome)](https://knoph.dev)
