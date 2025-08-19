@@ -49,7 +49,8 @@ Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling pu
 Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---  
-![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  
+![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)
+
 **[Knoph Ayieko](https://github.com/Knoph1)**
 
 _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
@@ -67,7 +68,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   <!-- Paragraphs aligned to the left of the icon -->
   <div style="display: flex; flex-direction: column; justify-content: center;">
     <p style="margin: 0; font-style: italic;">Build for people. Code with purpose. Collaborate for impact.</p>
-    <p style="margin: 0; font-weight: bold;">&copy; 2025 | Knoph Ayieko | My rights reserves.</p>
+    <p style="margin: 0; font-weight: bold;">&copy; 2025 | Knoph Ayieko | All rights reserves.</p>
   </div>
    <!-- GitHub Icon -->
   <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
