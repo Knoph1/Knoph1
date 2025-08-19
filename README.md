@@ -37,8 +37,6 @@
         />
         <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true" alt="Knoph's GitHub stats" />
       </picture>
-    </p>
-    <p align="right">
       <!-- Most Used Languages -->
       <picture>
         <source 
