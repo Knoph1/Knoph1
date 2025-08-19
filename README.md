@@ -21,42 +21,81 @@
 
 ---
 
+# 📊 Animated Chart Demo
+
+This project demonstrates a **motion-slide animated chart** built with **React + Recharts + Framer Motion**.
+
+---
+
+## 🚀 Demo Preview
+![Chart Animation](assets/chart-demo.gif)
+
+[🔗 Live Demo](https://knoph.dev/chart-demo)
+
+---
+
+## 🛠️ Code Example
+
+```jsx
+import { motion } from "framer-motion";
+import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
+
+const data = [
+  { name: "Jan", value: 40 },
+  { name: "Feb", value: 80 },
+  { name: "Mar", value: 60 },
+  { name: "Apr", value: 100 },
+];
+
+export default function AnimatedChart() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+    >
+      <LineChart width={500} height={300} data={data}>
+        <CartesianGrid stroke="#ccc" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Line type="monotone" dataKey="value" stroke="#007bff" strokeWidth={3} />
+      </LineChart>
+    </motion.div>
+  );
+}
+
+m
+
 ## 📈 GitHub Stats
 
-<div align="center">
+<!-- Animated Showcase (GIF preview of sliding charts) -->
+<p align="center">
+  <img src="assets/github-stats-animated.gif" alt="GitHub Stats Animation" width="80%">
+</p>
 
-  <!-- Animated Wrapper -->
-  <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="100%" />
+---
 
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
-
-</div>
-
-b
-
-![Stats Loading](https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif)
-
-<img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
-
-
-o
-
-<animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze" />
-
-
-j
-
-## 📈 GitHub Stats
-
+<!-- Interactive Reveal (click-to-show effect) -->
 <details>
-  <summary>✨ Click to reveal</summary>
+  <summary>✨ Click to reveal live stats</summary>
+  <div align="center">
 
+  <!-- GitHub Stats with "contribs" hidden -->
   <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+
+  <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
 
+  </div>
 </details>
+
+---
+
+### 🔗 Live Animated Demo
+You can see the full animated motion-slide chart here:  
+👉 [View Live Demo](https://your-live-demo-link.com)
+
 
 ---
 
