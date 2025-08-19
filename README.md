@@ -17,6 +17,17 @@
   </div>
 </details>
 
+m
+
+## 📈 GitHub Stats
+
+![Animated Stats](assets/github-stats-countup.gif)
+
+n
+
+![Visitors](https://komarev.com/ghpvc/?username=Knoph1&color=blue)
+
+
 ---  
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
