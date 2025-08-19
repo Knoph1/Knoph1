@@ -51,7 +51,8 @@ Thank you in-advance for supporting African tech and dreams that matter! üåçüö
 ---  
 ![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  
 **[Knoph Ayieko](https://github.com/Knoph1)**  
-_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**  
+_Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
+
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
 [![GitHub Stars](https://img.shields.io/github/stars/Knoph1?style=social)](https://github.com/Knoph1)
 [![Website](https://img.shields.io/badge/Website-knoph.dev-blue?style=flat&logo=google-chrome)](https://knoph.dev)
