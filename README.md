@@ -8,12 +8,45 @@
 ## 📈 GitHub Stats  
 <!-- Interactive Reveal (click-to-show effect) -->
 <details>
-  <summary>*Click to reveal live statistics✨*</summary>
+  <summary>Click to reveal live statistics✨</summary>
   <div align="left">
   <!-- GitHub Stats with "contribs" hidden -->
   <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
+  </div>
+</details>
+
+---  
+## 📈 GitHub Stats  
+<!-- Interactive Reveal (click-to-show effect) -->
+<details>
+  <summary>Click to reveal live statistics ✨</summary>
+  <div align="left">
+  <!-- GitHub Stats with system theme detection -->
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical" 
+      media="(prefers-color-scheme: dark)" 
+    />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default" 
+      media="(prefers-color-scheme: light)" 
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs" alt="Knoph's GitHub Stats" />
+  </picture>
+  <!-- Top Languages with system theme detection -->
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical" 
+      media="(prefers-color-scheme: dark)" 
+    />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default" 
+      media="(prefers-color-scheme: light)" 
+    />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact" alt="Top Languages" />
+  </picture>
   </div>
 </details>
 
