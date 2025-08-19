@@ -1,4 +1,5 @@
-*Greetings from, I,* **[Knoph Ayieko](https://github.com/Knoph1)** 👋  
+*Greetings from, I,* **[Knoph Ayieko](https://github.com/Knoph1)** 👋
+
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">  
 > *Welcome to my *GitHub* profile*
 
@@ -27,7 +28,9 @@ Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling pu
 Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---  
-![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  **[Knoph Ayieko](https://github.com/Knoph1)**  
+![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  
+**[Knoph Ayieko](https://github.com/Knoph1)**
+
 _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 [![GitHub Followers](https://img.shields.io/github/followers/Knoph1?style=social)](https://github.com/Knoph1)
