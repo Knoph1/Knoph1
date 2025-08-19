@@ -46,20 +46,6 @@
   </div>
 </details>
 
----
-
----
-
-## 📈 GitHub Stats  
-
-<!-- Dark Mode -->
-[![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical#gh-dark-mode-only)](https://github.com/Knoph1)
-[![Knoph's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical#gh-dark-mode-only)](https://github.com/Knoph1)
-
-<!-- Light Mode -->
-[![Knoph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default#gh-light-mode-only)](https://github.com/Knoph1)
-[![Knoph's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default#gh-light-mode-only)](https://github.com/Knoph1)
-
 ---  
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
