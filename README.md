@@ -19,6 +19,47 @@
 
 ---
 
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+  <!-- Animated Wrapper -->
+  <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="100%" />
+
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
+
+</div>
+
+b
+
+![Stats Loading](https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif)
+
+<img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+
+
+o
+
+<animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze" />
+
+
+j
+
+## 📈 GitHub Stats
+
+<details>
+  <summary>✨ Click to reveal</summary>
+
+  <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=compact" />
+
+</details>
+
+---
+
 ## 💖 Sponsor My Work
 
 I’m building impactful, open-source tech and educational tools across Africa to the globe.
