@@ -40,18 +40,45 @@
 ---
 
 ---
-## 📈 GitHub Stats  
+---
+
+## ​ GitHub Stats
 
 <details>
   <summary>Click to reveal live statistics ✨</summary>
   <div align="left">
 
-  <!-- Auto-switching SVGs with slide-in effect -->
-  ![GITHUB Stats](https://raw.githubusercontent.com/knoph1/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-  ![GITHUB Languages](https://raw.githubusercontent.com/knoph1/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+  <!-- GitHub Stats Card (auto-switch theme) -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default"
+    />
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs"
+      alt="Knoph's GitHub Stats"
+    />
+  </picture>
 
-  ![GITHUB Stats](https://raw.githubusercontent.com/knoph1/github-stats/master/generated/overview.svg#gh-light-mode-only)
-  ![GITHUB Languages](https://raw.githubusercontent.com/knoph1/github-stats/master/generated/languages.svg#gh-light-mode-only)
+  <!-- Top Languages Card (auto-switch theme) -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=radical"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=default"
+    />
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact"
+      alt="Knoph's Top Languages"
+    />
+  </picture>
 
   </div>
 </details>
