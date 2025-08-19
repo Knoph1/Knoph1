@@ -18,36 +18,40 @@
 </details>
 
 ---  
-## 🌟 GitHub Stats  
-<p align="center">
-  <!-- GitHub Stats -->
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true" alt="Knoph's GitHub stats" />
-  </picture>
-</p>
-
-<p align="center">
-  <!-- Most Used Languages -->
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact" alt="Top Languages" />
-  </picture>
-</p>
+## 📈 GitHub Stats  
+<!-- Interactive Reveal (click-to-show effect) -->
+<details>
+  <summary>Click to reveal live statistics✨</summary>
+  <div align="left">
+  <!-- GitHub Stats with "contribs" hidden -->
+    <p align="center">
+      <!-- GitHub Stats -->
+      <picture>
+        <source 
+          srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical" 
+          media="(prefers-color-scheme: dark)" 
+        />
+        <source 
+          srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=default" 
+          media="(prefers-color-scheme: light)" 
+        />
+        <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true" alt="Knoph's GitHub stats" />
+      </picture>
+    </p>
+    <p align="right">
+      <!-- Most Used Languages -->
+      <picture>
+        <source 
+          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical" 
+          media="(prefers-color-scheme: dark)" 
+        />
+        <source 
+          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default" 
+          media="(prefers-color-scheme: light)" 
+        />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact" alt="Top Languages" />
+      </picture>
+    </p>
 
 ---  
 ## 💖 Sponsor My Work  
