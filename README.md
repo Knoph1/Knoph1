@@ -68,7 +68,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   <!-- Paragraphs aligned to the left of the icon -->
   <div style="display: flex; flex-direction: column; justify-content: center;">
     <p style="margin: 0; font-style: italic;">Build for people. Code with purpose. Collaborate for impact.</p>
-    <p style="margin: 0; font-weight: bold;">&copy; 2025 | Knoph Ayieko | All rights reserves.</p>
+    <p style="margin: 0; font-weight: bold;">&copy; 2025 | **Knoph Ayieko** | All rights reserves.</p>
   </div>
    <!-- GitHub Icon -->
   <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
