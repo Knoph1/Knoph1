@@ -8,7 +8,7 @@
 ## 📈 GitHub Stats  
 <!-- Interactive Reveal (click-to-show effect) -->
 <details>
-  <summary>***Click** to reveal live statistics✨*</summary>
+  <summary>*Click to reveal live statistics✨*</summary>
   <div align="left">
   <!-- GitHub Stats with "contribs" hidden -->
   <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=compact&hide=contribs" />
