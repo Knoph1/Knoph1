@@ -37,6 +37,25 @@
   </div>
 </details>
 
+---
+
+---
+## 📈 GitHub Stats  
+
+<details>
+  <summary>Click to reveal live statistics ✨</summary>
+  <div align="left">
+
+  <!-- Auto-switching SVGs with slide-in effect -->
+  ![GITHUB Stats](https://raw.githubusercontent.com/puliczek/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+  ![GITHUB Languages](https://raw.githubusercontent.com/puliczek/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+
+  ![GITHUB Stats](https://raw.githubusercontent.com/puliczek/github-stats/master/generated/overview.svg#gh-light-mode-only)
+  ![GITHUB Languages](https://raw.githubusercontent.com/puliczek/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
+  </div>
+</details>
+
 ---  
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
