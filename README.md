@@ -64,6 +64,7 @@ export default function AnimatedChart() {
     </motion.div>
   );
 }
+```
 
 m
 
