@@ -17,16 +17,37 @@
   </div>
 </details>
 
-m
+---  
+## 🌟 GitHub Stats  
+<p align="center">
+  <!-- GitHub Stats -->
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical" 
+      media="(prefers-color-scheme: dark)" 
+    />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=default" 
+      media="(prefers-color-scheme: light)" 
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true" alt="Knoph's GitHub stats" />
+  </picture>
+</p>
 
-## 📈 GitHub Stats
-
-![Animated Stats](assets/github-stats-countup.gif)
-
-n
-
-![Visitors](https://komarev.com/ghpvc/?username=Knoph1&color=blue)
-
+<p align="center">
+  <!-- Most Used Languages -->
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical" 
+      media="(prefers-color-scheme: dark)" 
+    />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default" 
+      media="(prefers-color-scheme: light)" 
+    />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact" alt="Top Languages" />
+  </picture>
+</p>
 
 ---  
 ## 💖 Sponsor My Work  
