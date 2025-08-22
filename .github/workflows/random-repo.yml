@@ -1,0 +1,29 @@
+name: Update Random Repo in README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Runs daily at 06:00 UTC = 09:00 EAT
+  workflow_dispatch:        # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          pwsh-version: '7.4.x'
+
+      - name: Run PowerShell script
+        shell: pwsh
+        run: ./Get-RandomRepo.ps1
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🔄 chore: Update random featured repo"
+          branch: main
