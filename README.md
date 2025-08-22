@@ -4,7 +4,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 > *Welcome to my **GitHub** profile*
 
-> *Knoph1*
+> **Knoph1**
 
 ---  
 ## 📈 GitHub Stats
