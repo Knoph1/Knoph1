@@ -1,0 +1,16 @@
+# .github/FUNDING.yml
+# GitHub Sponsors and other funding platforms configuration
+# These links appear in the repo's sidebar ("Sponsor this project")
+
+github: [Knoph1] # Your GitHub username for sponsorship
+patreon: Knoph1
+open_collective: knoph1
+ko_fi: knoph1
+tidelift: null
+community_bridge: null
+liberapay: knoph1
+issuehunt: null
+otechie: null
+custom:
+  - "https://www.buymeacoffee.com/knoph"
+  - "https://paypal.me/knophayieko"

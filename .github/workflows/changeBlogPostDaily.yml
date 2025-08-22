@@ -1,0 +1,38 @@
+# 🔄 Daily update workflow for Knoph's GitHub profile
+
+name: Update Random Featured Repo
+
+on:
+  schedule:
+    # Runs daily at 09:00 EAT (06:00 UTC)
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger from the Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ✅ Checkout your profile repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ✅ Set up PowerShell
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          pwsh-version: '7.4.x'
+
+      # ✅ Run your random repo script
+      - name: Run Random Repo Script
+        run: ./Get-RandomRepo.ps1
+        shell: pwsh
+
+      # ✅ Auto commit and push changes
+      - name: Commit and Push README Update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🌟 chore: Update daily featured repo in README"
+          branch: main
+          commit_user_name: "KnophBot"
+          commit_user_email: "actions@github.com"
