@@ -94,14 +94,10 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**  
 <img src="/assets/GitHub - Knoph1.png" height="210">  
-<!-- Footer closure --!>
-<div style="display: flex; align-items: left; gap: 16px;">
-  <!-- Paragraphs aligned to the left of the icon -->
-  <div style="display: flex; flex-direction: column; justify-content: center;">
-    <p style="margin: 0; font-style: bold;">Build for people. Code with purpose. Collaborate for impact.</p>
-  </div>
+**Build for people. Code with purpose. Collaborate for impact.**
 
 ---  
+<!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
 </div>
