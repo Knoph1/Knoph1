@@ -45,10 +45,24 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
     />
   </picture>
 
+  <!-- GitHub Streak Card (auto-switch theme) -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=radical"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=default"
+    />
+    <img
+      src="https://streak-stats.demolab.com?user=Knoph1"
+      alt="Knoph's GitHub Streak"
+    />
+  </picture>
+
   </div>
 </details>
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=charity553)](https://git.io/streak-stats)
 
 ---  
 ## 🌟 Random Featured Repository  
