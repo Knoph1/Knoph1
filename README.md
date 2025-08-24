@@ -2,9 +2,9 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
-*Welcome to my **GitHub** profile*
+> *Welcome to my **GitHub** profile*
 
-> **Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
+**Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
 
 ---  
 ## 📈 GitHub Stats
