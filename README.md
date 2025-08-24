@@ -48,6 +48,8 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
   </div>
 </details>
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=charity553)](https://git.io/streak-stats)
+
 ---  
 ## 🌟 Random Featured Repository  
 
@@ -82,7 +84,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 <div style="display: flex; align-items: left; gap: 16px;">
   <!-- Paragraphs aligned to the left of the icon -->
   <div style="display: flex; flex-direction: column; justify-content: center;">
-    <p style="margin: 0; font-style: italic;">Build for people. Code with purpose. Collaborate for impact.</p>
+    <p style="margin: 0; font-style: bold;">Build for people. Code with purpose. Collaborate for impact.</p>
   </div>
 
 ---  
