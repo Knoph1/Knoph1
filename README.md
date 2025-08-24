@@ -83,7 +83,6 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   <!-- Paragraphs aligned to the left of the icon -->
   <div style="display: flex; flex-direction: column; justify-content: center;">
     <p style="margin: 0; font-style: italic;">Build for people. Code with purpose. Collaborate for impact.</p>
-    <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
   </div>
 
 ---  
