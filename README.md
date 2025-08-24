@@ -85,6 +85,9 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
     <p style="margin: 0; font-style: italic;">Build for people. Code with purpose. Collaborate for impact.</p>
     <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
   </div>
+  
+  <img src="../assets/GitHub - Knoph1.png" height="210">
+  
    <!-- GitHub Icon -->
   <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
