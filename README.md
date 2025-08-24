@@ -76,11 +76,8 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
----  
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**  
-<img src="/assets/GitHub - Knoph1.png" height="210">
-
----  
+<img src="/assets/GitHub - Knoph1.png" height="210">  
 <!-- Footer closure --!>
 <div style="display: flex; align-items: left; gap: 16px;">
   <!-- Paragraphs aligned to the left of the icon -->
@@ -90,3 +87,6 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
   </div>
 
 ---  
+<div style="display: flex; flex-direction: column; justify-content: center;">
+  <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
+</div>
