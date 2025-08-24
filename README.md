@@ -93,7 +93,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**  
-<img src="/assets/GitHub - Knoph1.png" height="210">  
+<img src="/assets/Knoph1 - GitHub.png" height="210">  
 **Build for people. Code with purpose. Collaborate for impact.**
 
 ---  
