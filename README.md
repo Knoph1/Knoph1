@@ -86,7 +86,7 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
     <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
   </div>
   
-  <img src="../assets/GitHub - Knoph1.png" height="210">
+  <img src="/assets/GitHub - Knoph1.png" height="210">
   
    <!-- GitHub Icon -->
   <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
