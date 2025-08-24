@@ -4,12 +4,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 *Welcome to my **GitHub** profile*
 
-> **Knoph1**
-
-<!-- GitHub Icon -->
-<a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40">
-</a>
+> **Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
 
 ---  
 ## 📈 GitHub Stats
