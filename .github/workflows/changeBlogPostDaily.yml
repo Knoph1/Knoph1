@@ -19,7 +19,7 @@ jobs:
 
       # ✅ Set up PowerShell
       - name: Setup PowerShell
-        uses: PowerShell/PowerShell@v1
+        uses: actions/setup-powershell@v1
         with:
           pwsh-version: '7.4.x'
 
