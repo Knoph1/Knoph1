@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Repository info (replace with your repo details)
 OWNER = "Knoph1"
-REPO = "your-repo-name"  # <- replace with your actual repo name
+REPO = "Knoph1"  # <- fixed repo name
 
 # GitHub API setup
 TOKEN = os.getenv("GITHUB_TOKEN")
