@@ -99,5 +99,5 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 ---  
 <!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
-  <p style="margin: 0; font-weight: bold;">&copy; 2025 | <strong>Knoph Ayieko</strong> | All rights reserves.</p>
+  <p style="margin: 0; font-weight: bold;">&copy; 2025 | Knoph Ayieko | All rights reserves.</p>
 </div>
