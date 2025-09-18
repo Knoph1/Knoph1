@@ -71,7 +71,6 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 <!-- RANDOM-REPO:END -->
 
 ---  
-
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
 Your sponsorship helps me:
