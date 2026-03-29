@@ -18,22 +18,6 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 I am a **Software Developer turned Tax Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
 
 ---  
-### 🔥 Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical&cache_seconds=1800)
-
----
-
-### 💻 Top Languages  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical&cache_seconds=1800)
-
----
-
-### ⚡ Streak  
-![GitHub Streak](https://streak-stats.demolab.com?user=Knoph1&theme=radical&cache_seconds=1800)
-
-</details>
-
----  
 ## 📈 GitHub Stats
 
 <details>
@@ -133,5 +117,5 @@ Build for people. Code with purpose. Collaborate for impact.
 <!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2023 | Knoph Ayieko | All rights reserves.</p>
-  Last edited: **March 30, 2026** - *Monday*.
-</div>
+</div>  
+Last edited: **March 30, 2026** - *Monday*.  
