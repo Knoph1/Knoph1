@@ -6,12 +6,32 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 **Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
 
-🏛️ Tax Administrator  
-📍 Nairobi, Kenya
+---  
+## 🧾 Identity  
 
----   
-## 🚀 Professional Profile   
-I am a *Software Developer* turned **Tax Administrator**.   
+🏛️ **Tax Administrator**  
+💻 **Systems & Data-Oriented Professional**  
+📍 Nairobi, Kenya  
+
+---  
+## 🚀 Professional Profile  
+I am a **Software Developer turned Tax Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
+
+---  
+### 🔥 Stats  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical&cache_seconds=1800)
+
+---
+
+### 💻 Top Languages  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical&cache_seconds=1800)
+
+---
+
+### ⚡ Streak  
+![GitHub Streak](https://streak-stats.demolab.com?user=Knoph1&theme=radical&cache_seconds=1800)
+
+</details>
 
 ---  
 ## 📈 GitHub Stats
