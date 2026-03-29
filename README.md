@@ -117,5 +117,5 @@ Build for people. Code with purpose. Collaborate for impact.
 <!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2023 | Knoph Ayieko | All rights reserves.</p>
-  <p style="margin: 0; font-weight: bold;">Last edited: <em>March 30, 2026</em> - Monday.</p> 
+  <p>Last edited: <em>March 30, 2026</em> - Monday.</p> 
 </div>
