@@ -115,8 +115,8 @@ Build for people. Code with purpose. Collaborate for impact.
 
 ---  
 <!-- Footer closure --!>  
+  <p>First edit: <em>June 1, 2023</em> - Thursday.</p> 
+  <p>Last edit: <em>March 30, 2026</em> - Monday.</p>
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2026 | Knoph Ayieko | All rights reserves.</p>
-  <p>First edit: <em>June 5, 2023</em> - Monday.</p> 
-  <p>Last edit: <em>March 30, 2026</em> - Monday.</p>
 </div>
