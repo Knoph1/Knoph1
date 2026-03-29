@@ -6,23 +6,12 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 **Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
 
----  
+🏛️ Tax Administrator | Revenue Systems Analyst | IT Professional
+📍 Nairobi, Kenya
 
-## 📈 GitHub Stats
-
-<details>
-<summary>Click to reveal live statistics ✨</summary>
-
-### 🔥 Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical)
-
-### 💻 Top Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical)
-
-### ⚡ Streak
-![GitHub Streak](https://streak-stats.demolab.com?user=Knoph1&theme=radical)
-
-</details>
+---   
+## 🚀 Professional Profile   
+I am a *Software Developer* turned **Tax Administrator**.   
 
 ---  
 ## 📈 GitHub Stats
@@ -32,6 +21,9 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
   <div align="left">
 
   <!-- GitHub Stats Card (auto-switch theme) -->
+  ### 🔥 Stats  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical)
+  
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -48,6 +40,9 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
   </picture>
 
   <!-- Top Languages Card (auto-switch theme) -->
+  ### 💻 Top Languages  
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical)
+
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -64,6 +59,9 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
   </picture>
 
   <!-- GitHub Streak Card (auto-switch theme) -->
+  ### ⚡ Streak  
+  ![GitHub Streak](https://streak-stats.demolab.com?user=Knoph1&theme=radical)
+
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -81,12 +79,6 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
   </div>
 </details>
-
----  
-## 🌟 Random Featured Repository  
-
-<!-- RANDOM-REPO:START -->
-<!-- RANDOM-REPO:END -->
 
 ---  
 ## 💖 Sponsor My Work  
@@ -110,11 +102,15 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
+## ⚡ Professional Philosophy  
+*“Efficient systems are the backbone of strong institutions.”*  
+
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**  
 Build for people. Code with purpose. Collaborate for impact.
 
 ---  
 <!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
-  <p style="margin: 0; font-weight: bold;">&copy; 2025 | Knoph Ayieko | All rights reserves.</p>
+  <p style="margin: 0; font-weight: bold;">&copy; 2023 | Knoph Ayieko | All rights reserves.</p>
+  <p>Last edited: *March 30, 2026* - *Monday*</p>
 </div>
