@@ -6,7 +6,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 **Knoph1**  <!-- GitHub Icon --> <a href="https://github.com/Knoph1" target="_blank" rel="noopener noreferrer"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" height="40"> </a>
 
-🏛️ Tax Administrator | Revenue Systems Analyst | IT Professional
+🏛️ Tax Administrator  
 📍 Nairobi, Kenya
 
 ---   
@@ -92,6 +92,10 @@ Whether it’s a ☕ coffee and/or a strategic partnership, **you are fueling pu
 Thank you in-advance for supporting African tech and dreams that matter! 🌍🚀
 
 ---  
+## ⚡ Professional Philosophy  
+*“Efficient systems are the backbone of strong institutions.”*
+
+---  
 ![Web App Developer](https://img.shields.io/badge/Developed%20By%20%3A-Knoph%20Ayieko)  
 **[Knoph Ayieko](https://github.com/Knoph1)**  
 _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
@@ -102,9 +106,6 @@ _Official Portfolio:_ **[knoph.dev](https://www.knoph.dev/)**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Knoph%20Ayieko-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/knoph-ayieko)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3787--513X-green?style=flat&logo=orcid)](https://orcid.org/0009-0001-3787-513X)
 
-## ⚡ Professional Philosophy  
-*“Efficient systems are the backbone of strong institutions.”*  
-
 **Thanks for visiting my GitHub profile, feel free to explore and collaborate.**  
 Build for people. Code with purpose. Collaborate for impact.
 
@@ -112,5 +113,5 @@ Build for people. Code with purpose. Collaborate for impact.
 <!-- Footer closure --!>  
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2023 | Knoph Ayieko | All rights reserves.</p>
-  <p>Last edited: *March 30, 2026* - *Monday*</p>
+  Last edited: **March 30, 2026** - *Monday*.
 </div>
