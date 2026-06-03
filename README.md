@@ -24,66 +24,57 @@ I am a **Software Developer / IT Expect** turned **Tax & Customs Administrator**
   <summary>Click to reveal live statistics ✨</summary>
   <div align="left">
 
-  <!-- GitHub Stats Card (auto-switch theme) -->
+  <!-- GitHub Stats Card (auto-switch theme) -->  
   ### 🔥 Stats  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical)
+  <picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs"
+    alt="Knoph's GitHub Stats"
+  />
+</picture>
+
+### 💻 Top Languages  
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=radical"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=default"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact"
+    alt="Knoph's Top Languages"
+  />
+</picture>
+
+### ⚡ Streak  
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://streak-stats.demolab.com?user=Knoph1&theme=radical"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://streak-stats.demolab.com?user=Knoph1&theme=default"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=Knoph1"
+    alt="Knoph's GitHub Streak"
+  />
+</picture>
   
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default"
-    />
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs"
-      alt="Knoph's GitHub Stats"
-    />
-  </picture>
-
-  <!-- Top Languages Card (auto-switch theme) -->
-  ### 💻 Top Languages  
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical)
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=radical"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact&theme=default"
-    />
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=Knoph1&layout=compact"
-      alt="Knoph's Top Languages"
-    />
-  </picture>
-
-  <!-- GitHub Streak Card (auto-switch theme) -->
-  ### ⚡ Streak  
-  ![GitHub Streak](https://streak-stats.demolab.com?user=Knoph1&theme=radical)
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=radical"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=default"
-    />
-    <img
-      src="https://streak-stats.demolab.com?user=Knoph1"
-      alt="Knoph's GitHub Streak"
-    />
-  </picture>
-
-  </div>
-</details>
-
 ---  
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
