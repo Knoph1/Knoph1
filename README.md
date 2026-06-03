@@ -9,8 +9,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 ---  
 ## 🧾 Identity  
 
-🏛️ **Tax & Customs Administrator**  
-💻 **Systems & Data-Oriented Professional**  
+🏛️ **Static & Dynamic Websites, Desktop Systems, Mobile Apps & Data-Oriented Professional** 💻  
 📍 Nairobi, Kenya  
 
 ---  
