@@ -9,13 +9,13 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 ---  
 ## 🧾 Identity  
 
-🏛️ **Tax Administrator**  
+🏛️ **Tax & Customs Administrator**  
 💻 **Systems & Data-Oriented Professional**  
 📍 Nairobi, Kenya  
 
 ---  
 ## 🚀 Professional Profile  
-I am a **Software Developer turned Tax Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
+I am a **Software Developer / IT Expect** turned **Tax & Customs Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
 
 ---  
 ## 📈 GitHub Stats
