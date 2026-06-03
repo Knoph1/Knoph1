@@ -74,7 +74,10 @@ I am a **Software Developer / IT Expect** turned **Tax & Customs Administrator**
     alt="Knoph's GitHub Streak"
   />
 </picture>
-  
+
+</div>
+</details>  
+
 ---  
 ## 💖 Sponsor My Work  
 I’m building impactful, open-source tech and educational tools across Africa to the globe.  
