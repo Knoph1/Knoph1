@@ -26,36 +26,34 @@ I am a **Software Developer / IT Expect** turned **Tax & Customs Administrator**
 
   <!-- GitHub Stats Card (auto-switch theme) -->
   ### 🔥 Stats  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&theme=radical)
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats.shion.dev/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats.shion.dev/api?username=Knoph1&show_icons=true&hide=contribs&theme=default"
+    />
+    <img
+      src="https://github-readme-stats.shion.dev/api?username=Knoph1&show_icons=true&hide=contribs"
+      alt="Knoph's GitHub Stats"
+    />
+  </picture>
+  
+  ### 💻 Top Languages  
   
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=radical"
+      srcset="https://github-readme-stats.shion.dev/api/top-langs?username=Knoph1&layout=compact&theme=radical"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs&theme=default"
+      srcset="https://github-readme-stats.shion.dev/api/top-langs?username=Knoph1&layout=compact&theme=default"
     />
     <img
-      src="https://github-readme-stats.vercel.app/api?username=Knoph1&show_icons=true&hide=contribs"
-      alt="Knoph's GitHub Stats"
-    />
-  </picture>
-
-  <!-- Top Languages Card (auto-switch theme) -->
-  ### 💻 Top Languages  
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=radical"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact&theme=default"
-    />
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knoph1&layout=compact"
+      src="https://github-readme-stats.shion.dev/api/top-langs?username=Knoph1&layout=compact"
       alt="Knoph's Top Languages"
     />
   </picture>
@@ -65,14 +63,14 @@ I am a **Software Developer / IT Expect** turned **Tax & Customs Administrator**
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com/?user=Knoph1&theme=radical"
+      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=radical"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://streak-stats.demolab.com/?user=Knoph1&theme=default"
+      srcset="https://streak-stats.demolab.com?user=Knoph1&theme=default"
     />
     <img
-      src="https://streak-stats.demolab.com/?user=Knoph1"
+      src="https://streak-stats.demolab.com?user=Knoph1"
       alt="Knoph's GitHub Streak"
     />
   </picture>
