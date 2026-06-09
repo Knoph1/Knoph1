@@ -9,7 +9,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 ---  
 ## 🧾 Identity  
 
-🏛️ **Static & Dynamic Websites, Desktop Systems, Mobile Apps - Software Developer** 💻  
+🏛️ Software Developer - *Static & Dynamic Websites & Desktop Systems* 💻  
 📍 Nairobi, Kenya  
 
 ---  
@@ -109,7 +109,7 @@ Build for people. Code with purpose. Collaborate for impact.
 ---  
 <!-- Footer closure --!>  
   <p>First edit: <em>June 1, 2023</em> - Thursday.</p> 
-  <p>Last edit: <em>June 3, 2026</em> - Wednesday.</p>
+  <p>Last edit: <em>June 10, 2026</em> - Wednesday.</p>
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <p style="margin: 0; font-weight: bold;">&copy; 2026 | Knoph Ayieko | All rights reserves.</p>
 </div>
