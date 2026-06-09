@@ -9,7 +9,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 ---  
 ## 🧾 Identity  
 
-🏛️ Software Developer - *Static & Dynamic Websites & Desktop Systems* 💻  
+🏛️ Software Developer - *Static & Dynamic Websites and Desktop Systems* 💻  
 📍 Nairobi, Kenya  
 
 ---  
