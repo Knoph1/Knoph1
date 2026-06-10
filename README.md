@@ -14,7 +14,7 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 ---  
 ## 🚀 Professional Profile  
-I am a **Software Developer / IT Expert** turned **Tax & Customs Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
+I am a **Software Developer / IT Specialist** turned **Tax & Customs Administrator**, bringing a strong foundation in technology into revenue systems, compliance and data-driven decision-making.
 
 ---  
 ## 📈 GitHub Stats
