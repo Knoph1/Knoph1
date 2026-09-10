@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knoph's Portfolio</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Configure Tailwind to support class-based dark mode -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+</head>
+<body class="min-h-screen transition-colors duration-300 bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+        Knoph<span class="text-indigo-600 dark:text-indigo-400">.</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="#about" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors">About</a>
+        <a href="#projects" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors">Projects</a>
+        <a href="#experience" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors">Experience</a>
+        <a href="#contact" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-4">
+        
+        <!-- Theme Toggle Button -->
+        <button
+          id="theme-toggle"
+          aria-label="Toggle Theme"
+          class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+        >
+          <!-- Sun Icon (Visible in Dark Mode) -->
+          <svg id="sun-icon" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <!-- Moon Icon (Visible in Light Mode) -->
+          <svg id="moon-icon" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <!-- CTA Button -->
+        <a
+          href="#contact"
+          class="hidden sm:inline-flex px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg shadow-md transition-colors"
+        >
+          Get in Touch
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden p-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white focus:outline-none"
+          aria-label="Toggle Navigation Menu"
+        >
+          <svg id="hamburger-icon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="close-icon" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-6 pt-2 pb-6 space-y-3">
+      <a href="#about" class="mobile-link block text-base font-medium text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
+      <a href="#projects" class="mobile-link block text-base font-medium text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
+      <a href="#experience" class="mobile-link block text-base font-medium text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Experience</a>
+      <a href="#contact" class="mobile-link block text-base font-medium text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
+      <a href="#contact" class="mobile-link inline-block w-full text-center px-4 py-2.5 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-md mt-2">Get in Touch</a>
+    </nav>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative flex items-center justify-center px-6 py-20 lg:py-32">
+    <div class="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-16">
+      
+      <!-- Left Column: Content -->
+      <div class="flex-1 space-y-6 text-center md:text-left">
+        <span class="inline-block px-3.5 py-1 bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 rounded-full text-xs font-semibold tracking-wide border border-indigo-200 dark:border-indigo-500/20">
+          Officer II & Founder
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-slate-900 dark:text-white">
+          Building the future of <span class="text-indigo-600 dark:text-indigo-400">Tax & Tech</span>.
+        </h1>
+        <p class="text-slate-600 dark:text-slate-300 text-lg max-w-xl leading-relaxed mx-auto md:mx-0">
+          Passionate about full-stack development, modern IT infrastructure and tax administration.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
+          <a href="#contact" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg shadow-lg shadow-indigo-600/25 transition-all">
+            Get in Touch
+          </a>
+          <a href="#projects" class="px-6 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium rounded-lg border border-slate-300 dark:border-slate-700 transition-all">
+            View Projects
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Passport Photo Frame -->
+      <div class="relative group">
+        <!-- Glow Effect -->
+        <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur-lg opacity-30 dark:opacity-40 group-hover:opacity-75 transition duration-500"></div>
+        
+        <!-- Photo Container -->
+        <div class="relative bg-white dark:bg-slate-900 p-3 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xl dark:shadow-2xl">
+          <img 
+            src="Knoph.JPG" 
+            alt="Knoph O. Ayieko - Passport Photo" 
+            class="w-48 h-60 sm:w-56 sm:h-72 object-cover rounded-xl border border-slate-200 dark:border-slate-800"
+            loading="eager"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // Theme Toggle Functionality
+    const htmlElem = document.documentElement;
+    const themeBtn = document.getElementById('theme-toggle');
+    const sunIcon = document.getElementById('sun-icon');
+    const moonIcon = document.getElementById('moon-icon');
+
+    themeBtn.addEventListener('click', () => {
+      if (htmlElem.classList.contains('dark')) {
+        htmlElem.classList.remove('dark');
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+      } else {
+        htmlElem.classList.add('dark');
+        moonIcon.classList.add('hidden');
+        sunIcon.classList.remove('hidden');
+      }
+    });
+
+    // Mobile Menu Drawer Functionality
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    const toggleMenu = () => {
+      mobileMenu.classList.toggle('hidden');
+      hamburgerIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    };
+
+    mobileBtn.addEventListener('click', toggleMenu);
+
+    // Close mobile menu automatically when a link is clicked
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (!mobileMenu.classList.contains('hidden')) {
+          toggleMenu();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
