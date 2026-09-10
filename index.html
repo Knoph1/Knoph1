@@ -88,6 +88,76 @@
         page-break-before: always;
       }
     }
+
+    /* Embedded Training Section Styles */
+    .section-training {
+      padding: 60px 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    .container-training {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    @media (min-width: 768px) {
+      .timeline-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .timeline-card {
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .timeline-card:hover {
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .card-date {
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .card-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 12px;
+      text-transform: uppercase;
+    }
+    .badge-primary { background: #dbeafe; color: #1e40af; }
+    .badge-secondary { background: #e0e7ff; color: #3730a3; }
+    .badge-success { background: #dcfce7; color: #166534; }
+    .badge-warning { background: #fef3c7; color: #92400e; }
+    .badge-info { background: #f3e8ff; color: #6b21a8; }
+    
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 5px 0;
+    }
+    .card-issuer {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .card-details {
+      padding-left: 18px;
+      margin: 0;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    .card-details li {
+      margin-bottom: 6px;
+    }
   </style>
 
   <!-- Structured Data (JSON-LD) for Search Engines -->
@@ -144,6 +214,7 @@
         <a href="#skills" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Skills</a>
         <a href="#certifications" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Certifications</a>
         <a href="#projects" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
+        <a href="#trainings-workshops" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Trainings</a>
         <a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
       </nav>
 
@@ -196,6 +267,7 @@
       <a href="#skills" class="mobile-link block text-base font-medium">Skills</a>
       <a href="#certifications" class="mobile-link block text-base font-medium">Certifications</a>
       <a href="#projects" class="mobile-link block text-base font-medium">Projects</a>
+      <a href="#trainings-workshops" class="mobile-link block text-base font-medium">Trainings</a>
       <a href="#contact" class="mobile-link block text-base font-medium">Contact</a>
       <button @click="docModal = true; toggleMenu();" class="mobile-link inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-md mt-2">
         <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -681,106 +753,109 @@
       </div>
     </section>
 
-    <!-- Trainings, Workshops & Seminars Section -->
-    <section id="trainings-workshops" class="section">
-      <div class="container">
-        <h2 class="section-title">Trainings, Workshops & Seminars</h2>
+    <!-- TRAININGS, WORKSHOPS & SEMINARS SECTION -->
+    <section id="trainings-workshops" class="section-training px-4 sm:px-6">
+      <div class="container-training max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Trainings, Workshops & Seminars</h2>
+          <p class="text-slate-600 dark:text-slate-400">Professional bootcamps, summit participation, and operational training milestones.</p>
+        </div>
         
         <div class="timeline-grid">
     
           <!-- Phase One Paramilitary -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">Jan 2026 – Mar 2026</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">Jan 2026 – Mar 2026</span>
               <span class="card-badge badge-primary">Professional Training</span>
             </div>
-            <h3 class="card-title">Phase One Paramilitary & Operational Training</h3>
-            <p class="card-issuer">Kenya Revenue Authority (KRA) | Embakasi & Mt. Kenya Region</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">Phase One Paramilitary & Operational Training</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">Kenya Revenue Authority (KRA) | Embakasi & Mt. Kenya Region</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Completed intensive 49-day tactical, operational, and physical compliance training program.</li>
               <li>Developed foundational leadership, enforcement protocols, discipline, and security strategies for tax administration.</li>
             </ul>
           </div>
     
           <!-- DigitalHealth Summit -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">November 2025</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">November 2025</span>
               <span class="card-badge badge-secondary">Summit</span>
             </div>
-            <h3 class="card-title">DigitalHealth Innovation Summit 2025</h3>
-            <p class="card-issuer">Ministry of Health & Tech Health Partners | Nairobi, Kenya</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">DigitalHealth Innovation Summit 2025</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">Ministry of Health & Tech Health Partners | Nairobi, Kenya</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Participated in panel discussions on leveraging cloud infrastructure and mobile tech for community health tracking.</li>
               <li>Explored data privacy, HIPAA/GDPR alignment, and interoperability standards for digital medical records in East Africa.</li>
             </ul>
           </div>
     
           <!-- Safaricom Decode -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">August 2025</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">August 2025</span>
               <span class="card-badge badge-secondary">Conference</span>
             </div>
-            <h3 class="card-title">Safaricom Decode Tech Conference 2025</h3>
-            <p class="card-issuer">Safaricom PLC | Nairobi, Kenya</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">Safaricom Decode Tech Conference 2025</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">Safaricom PLC | Nairobi, Kenya</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Attended technical tracks covering M-PESA API integrations, microservices architecture, and cloud native deployments.</li>
               <li>Engaged with local developers and industry leaders on scalable software architecture and Fintech innovations.</li>
             </ul>
           </div>
     
           <!-- ALX Africa Founder Academy -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">2024 – 2025</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">2024 – 2025</span>
               <span class="card-badge badge-success">Accelerated Program</span>
             </div>
-            <h3 class="card-title">ALX Africa Founder & Tech Leadership Bootcamp</h3>
-            <p class="card-issuer">ALX Africa</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">ALX Africa Founder & Tech Leadership Bootcamp</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">ALX Africa</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Mastered tech business fundamentals, product-market fit validation, and modern full-stack development practices.</li>
               <li>Hands-on practice with agile workflows, venture pitching, and enterprise technology integration.</li>
             </ul>
           </div>
     
           <!-- Innovation Hackathon 2023 -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">October 2023</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">October 2023</span>
               <span class="card-badge badge-warning">Hackathon</span>
             </div>
-            <h3 class="card-title">University Tech Innovation Hackathon</h3>
-            <p class="card-issuer">University of Kabianga Tech Hub</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">University Tech Innovation Hackathon</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">University of Kabianga Tech Hub</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Co-designed and developed a prototype web platform for streamling student records and workflow automation within 48 hours.</li>
               <li>Awarded top-tier recognition for clean database architecture, efficient API endpoints, and user interface design.</li>
             </ul>
           </div>
     
           <!-- GitHub Bootcamp 2023 -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">March 2023</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">March 2023</span>
               <span class="card-badge badge-info">Workshop</span>
             </div>
-            <h3 class="card-title">GitHub Open Source & DevOps Bootcamp</h3>
-            <p class="card-issuer">GitHub Campus Experts Program</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">GitHub Open Source & DevOps Bootcamp</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">GitHub Campus Experts Program</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>In-depth workshop covering advanced Git workflows, CI/CD pipeline automation via GitHub Actions, and branch protection strategies.</li>
               <li>Contributed bug fixes and documentation enhancements to active open-source projects.</li>
             </ul>
           </div>
     
           <!-- East Africa Tech Developers Hackathon 2022 -->
-          <div class="timeline-card">
+          <div class="timeline-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md">
             <div class="card-header">
-              <span class="card-date">July 2022</span>
+              <span class="card-date text-slate-500 dark:text-slate-400">July 2022</span>
               <span class="card-badge badge-warning">Hackathon</span>
             </div>
-            <h3 class="card-title">East Africa Tech Developers Hackathon</h3>
-            <p class="card-issuer">DevCon East Africa</p>
-            <ul class="card-details">
+            <h3 class="card-title text-slate-900 dark:text-white">East Africa Tech Developers Hackathon</h3>
+            <p class="card-issuer text-indigo-600 dark:text-indigo-400">DevCon East Africa</p>
+            <ul class="card-details text-slate-600 dark:text-slate-300">
               <li>Collaborated in a 3-person team building a lightweight web application for tracking local community resource distribution.</li>
               <li>Focused on responsive design, database queries optimization, and RESTful API development.</li>
             </ul>
@@ -789,96 +864,6 @@
         </div>
       </div>
     </section>
-    
-    <!-- Standard Styles for the Section -->
-    <style>
-      .section {
-        padding: 60px 20px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-        color: #1f2937;
-        background-color: #f9fafb;
-      }
-      .container {
-        max-width: 1000px;
-        margin: 0 auto;
-      }
-      .section-title {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 30px;
-        border-bottom: 3px solid #2563eb;
-        display: inline-block;
-        padding-bottom: 5px;
-      }
-      .timeline-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 768px) {
-        .timeline-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .timeline-card {
-        background: #ffffff;
-        border: 1px solid #e5e7eb;
-        border-radius: 8px;
-        padding: 20px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        transition: transform 0.2s, box-shadow 0.2s;
-      }
-      .timeline-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      }
-      .card-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-      }
-      .card-date {
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: #6b7280;
-      }
-      .card-badge {
-        font-size: 0.75rem;
-        font-weight: 600;
-        padding: 3px 8px;
-        border-radius: 12px;
-        text-transform: uppercase;
-      }
-      .badge-primary { background: #dbeafe; color: #1e40af; }
-      .badge-secondary { background: #e0e7ff; color: #3730a3; }
-      .badge-success { background: #dcfce7; color: #166534; }
-      .badge-warning { background: #fef3c7; color: #92400e; }
-      .badge-info { background: #f3e8ff; color: #6b21a8; }
-      
-      .card-title {
-        font-size: 1.15rem;
-        font-weight: 600;
-        margin: 5px 0;
-        color: #111827;
-      }
-      .card-issuer {
-        font-size: 0.9rem;
-        font-weight: 500;
-        color: #2563eb;
-        margin-bottom: 12px;
-      }
-      .card-details {
-        padding-left: 18px;
-        margin: 0;
-        font-size: 0.9rem;
-        color: #4b5563;
-        line-height: 1.5;
-      }
-      .card-details li {
-        margin-bottom: 6px;
-      }
-    </style>
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="py-20 px-4 sm:px-6">
@@ -1239,13 +1224,21 @@
     const closeIcon = document.getElementById('close-icon');
     const mobileLinks = document.querySelectorAll('.mobile-link');
 
-    const toggleMenu = () => {
-      mobileMenu.classList.toggle('hidden');
-      hamburgerIcon.classList.toggle('hidden');
-      closeIcon.classList.toggle('hidden');
-    };
+    function toggleMenu() {
+      const isExpanded = mobileMenu.classList.contains('hidden');
+      if (isExpanded) {
+        mobileMenu.classList.remove('hidden');
+        hamburgerIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+      } else {
+        mobileMenu.classList.add('hidden');
+        hamburgerIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      }
+    }
 
     mobileBtn.addEventListener('click', toggleMenu);
+
     mobileLinks.forEach(link => {
       link.addEventListener('click', () => {
         if (!mobileMenu.classList.contains('hidden')) {
