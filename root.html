@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ================= SEO & METADATA ================= -->
+  <title>Knoph O. Ayieko | Full-Stack Developer & Tax Technology Professional</title>
+  <meta name="description" content="Portfolio of Knoph O. Ayieko — Graduate Trainee - Officer II, Software Engineer and Founder of Omni-Legacy Limited. Specializing in Next.js, TypeScript, PostgreSQL, and Tax Administration." />
+  <meta name="keywords" content="Knoph O. Ayieko, Full-Stack Developer, Kenya Revenue Authority, KESRA, Tax Technology, Next.js, React, Omni-Legacy" />
+  <meta name="author" content="Knoph O. Ayieko" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourusername.github.io/" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Knoph O. Ayieko | Full-Stack Developer & Tax Technology Professional" />
+  <meta property="og:description" content="Official portfolio of Knoph O. Ayieko. Explore full-stack web applications, technical writing and professional background." />
+  <meta property="og:image" content="https://github.com/Knoph1.github.io/Knoph.JPG" />
+  <meta property="og:url" content="https://github.com/Knoph1.github.io/" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Knoph O. Ayieko | Full-Stack Developer & Tax Tech" />
+  <meta name="twitter:description" content="Full-Stack Developer, Founder of Omni-Legacy Limited and Tax Technology Professional." />
+  <meta name="twitter:image" content="https://yourusername.github.io/Knoph.JPG" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Structured Data (JSON-LD) for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Knoph O. Ayieko",
+    "jobTitle": "Graduate Trainee - Officer II & Founder",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Kenya Revenue Authority"
+      },
+      {
+        "@type": "Organization",
+        "name": "Omni-Legacy Limited"
+      }
+    ],
+    "almaMater": "University of Kabianga",
+    "image": "https://yourusername.github.io/Knoph.JPG",
+    "sameAs": [
+      "https://github.com/",
+      "https://linkedin.com/"
+    ]
+  }
+  </script>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- Skip to main content link for Accessibility -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 px-4 py-2 bg-indigo-600 text-white rounded-md shadow-lg">
+    Skip to main content
+  </a>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="favicon.png" class="flex items-center gap-2 group focus:outline-none">
+        <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-md group-hover:bg-indigo-500 transition-colors">
+          Knoph
+        </div>
+        <span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+          Knoph<span class="text-indigo-600 dark:text-indigo-400">.</span>
+        </span>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
+        <a href="#experience" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
+        <a href="#publications" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Writing</a>
+        <a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        
+        <!-- Dark/Light Theme Toggle -->
+        <button
+          id="theme-toggle"
+          aria-label="Toggle light and dark theme"
+          class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors focus:ring-2 focus:ring-indigo-500"
+        >
+          <svg id="sun-icon" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="moon-icon" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <!-- CV/Resume Download Link -->
+        <a
+          href="CV.pdf" 
+          download="Knoph_O._Ayieko_CV.pdf"
+          class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg shadow-md transition-all"
+        >
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Resume / CV
+        </a>
+
+        <!-- Mobile Drawer Toggle -->
+        <button
+          id="mobile-menu-btn"
+          aria-label="Open menu"
+          class="md:hidden p-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+        >
+          <svg id="hamburger-icon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="close-icon" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <nav id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-6 pt-3 pb-6 space-y-3">
+      <a href="#about" class="mobile-link block text-base font-medium">About</a>
+      <a href="#experience" class="mobile-link block text-base font-medium">Experience</a>
+      <a href="#projects" class="mobile-link block text-base font-medium">Projects</a>
+      <a href="#publications" class="mobile-link block text-base font-medium">Writing</a>
+      <a href="#contact" class="mobile-link block text-base font-medium">Contact</a>
+      <a href="CV.pdf" download="Knoph_O._Ayieko_CV.pdf" class="mobile-link inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-md mt-2">
+        Download CV
+      </a>
+    </nav>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main id="main-content">
+    
+    <!-- HERO SECTION -->
+    <section class="relative flex items-center justify-center px-6 py-20 lg:py-32 overflow-hidden">
+      <div class="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-16">
+        
+        <!-- Text Content -->
+        <div class="flex-1 space-y-6 text-center md:text-left">
+          <span class="inline-block px-3.5 py-1 bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 rounded-full text-xs font-semibold tracking-wide border border-indigo-200 dark:border-indigo-500/20">
+            Rax & Customs Admin. | Software Developer
+          </span>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-slate-900 dark:text-white">
+            Building the future of <span class="text-indigo-600 dark:text-indigo-400">Tax & Tech</span>.
+          </h1>
+          <p class="text-slate-600 dark:text-slate-300 text-lg max-w-xl leading-relaxed mx-auto md:mx-0">
+            Full-stack developer, founder of Omni-Legacy Limited and tax administration specialist. Bridging modern software systems with tax infrastructure.
+          </p>
+          <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
+            <a href="#contact" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg shadow-lg shadow-indigo-600/25 transition-all">
+              Get in Touch
+            </a>
+            <a href="#projects" class="px-6 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium rounded-lg border border-slate-300 dark:border-slate-700 transition-all">
+              View Projects
+            </a>
+          </div>
+        </div>
+
+        <!-- Passport Photo -->
+        <div class="relative group">
+          <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur-lg opacity-30 dark:opacity-40 group-hover:opacity-75 transition duration-500"></div>
+          <div class="relative bg-white dark:bg-slate-900 p-3 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xl">
+            <img 
+              src="Knoph.JPG" 
+              alt="Knoph O. Ayieko - Passport Photo" 
+              class="w-48 h-60 sm:w-56 sm:h-72 object-cover rounded-xl border border-slate-200 dark:border-slate-800"
+              loading="eager"
+            />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-white dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight">About Me</h2>
+          <p class="text-slate-600 dark:text-slate-400">Intersection of Information Technology, Entrepreneurship, and Tax Policy.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p>
+              Holding a <strong>Bachelor of Science (Information Technology)</strong> from the University of Kabianga, I combine full-stack technical proficiency with specialized knowledge in tax and customs administration.
+            </p>
+            <p>
+              As the Founder and Managing Director of <strong>Omni-Legacy Limited</strong>, I develop scalable digital platforms, manage web infrastructure and solve complex system design challenges using modern stacks like Next.js, React, TypeScript and PostgreSQL.
+            </p>
+          </div>
+
+          <!-- Key Skill Tags -->
+          <div class="bg-slate-50 dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4">
+            <h3 class="text-lg font-semibold text-slate-900 dark:text-white">Core Technologies & Competencies</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">Next.js / React</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">TypeScript</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">Tailwind CSS</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">Node.js / Express</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">PostgreSQL / MySQL</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">Docker</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">Tax & Customs Administration</span>
+              <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 rounded-md text-xs font-medium">System Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section id="experience" class="py-20 px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight">Experience & Qualifications</h2>
+          <p class="text-slate-600 dark:text-slate-400">Professional background and ongoing academic endeavors.</p>
+        </div>
+
+        <div class="space-y-6 max-w-3xl mx-auto">
+          <!-- Experience Item -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-2">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Graduate Trainee - Officer II</h3>
+              <span class="text-xs text-indigo-600 dark:text-indigo-400 font-semibold">2026 – Present</span>
+            </div>
+            <p class="text-sm font-medium text-slate-600 dark:text-slate-400">Kenya Revenue Authority</p>
+            <p class="text-sm text-slate-600 dark:text-slate-300 pt-2">
+              Enrolled in specialized Certificate in Tax & Customs Administration training at the Kenya School of Revenue Administration (KESRA).
+            </p>
+          </div>
+
+          <!-- Experience Item -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-2">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Founder & Managing Director</h3>
+              <span class="text-xs text-indigo-600 dark:text-indigo-400 font-semibold">2026 – Present</span>
+            </div>
+            <p class="text-sm font-medium text-slate-600 dark:text-slate-400">Omni-Legacy Limited</p>
+            <p class="text-sm text-slate-600 dark:text-slate-300 pt-2">
+              Directing technical roadmap, infrastructure deployment and web application development for client and internal software platforms.
+            </p>
+          </div>
+
+          <!-- Education Item -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-2">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Bachelor of Science (Information Technology)</h3>
+              <span class="text-xs text-indigo-600 dark:text-indigo-400 font-semibold">Graduated Oct 2023</span>
+            </div>
+            <p class="text-sm font-medium text-slate-600 dark:text-slate-400">University of Kabianga</p>
+            <p class="text-sm text-slate-600 dark:text-slate-300 pt-2">
+              Focused on software development, network administration, database design and web architecture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-white dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight">Featured Projects</h2>
+          <p class="text-slate-600 dark:text-slate-400">Selected technology applications and corporate platforms.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Project Card 1 -->
+          <div class="p-6 bg-slate-50 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="text-xs font-semibold px-2.5 py-1 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded">Full-Stack Platform</span>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white">Omni-Legacy Web Infrastructure</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Corporate digital ecosystem built using Next.js App Router, Tailwind CSS and hosted on high-availability cloud infrastructure.
+              </p>
+            </div>
+            <div class="pt-4 flex items-center gap-4">
+              <a href="#" class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+                View Project &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="p-6 bg-slate-50 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="text-xs font-semibold px-2.5 py-1 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded">Tax & Compliance Tool</span>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white">eTIMS Compliance Dashboard</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Data visualization tool built to track electronic tax invoicing workflows and verify compliance data structures.
+              </p>
+            </div>
+            <div class="pt-4 flex items-center gap-4">
+              <a href="#" class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+                View Project &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WRITING / PUBLICATIONS SECTION -->
+    <section id="publications" class="py-20 px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight">Writing & Memoir</h2>
+          <p class="text-slate-600 dark:text-slate-400">Documenting the journey of tech, leadership and public administration.</p>
+        </div>
+
+        <div class="p-8 bg-gradient-to-br from-indigo-900 to-slate-900 text-white rounded-2xl border border-slate-800 max-w-3xl mx-auto space-y-4 shadow-xl">
+          <span class="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-medium border border-indigo-500/30">Upcoming Book</span>
+          <h3 class="text-2xl font-bold">Omni-Code 25.0: The Founder's Journey</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            A personal memoir exploring full-stack engineering, founding Omni-Legacy Limited and navigating public sector tax administration in Kenya.
+          </p>
+          <div class="pt-2 text-xs text-slate-400">Expected Publication: December 2026</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 bg-white dark:bg-slate-900/50 border-t border-slate-200 dark:border-slate-800 px-6">
+      <div class="max-w-3xl mx-auto space-y-8 text-center">
+        <div class="space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight">Get in Touch</h2>
+          <p class="text-slate-600 dark:text-slate-400">Have a technical project, tax compliance query or collaboration offer?</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+          <a href="mailto:knoph@example.com" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg shadow-lg shadow-indigo-600/25 transition-all inline-flex items-center justify-center gap-2">
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 012-2V7a2 2 0 01-2-2H5a2 2 0 01-2 2v10a2 2 0 012 2z" />
+            </svg>
+            Send Email
+          </a>
+          <a href="CV.pdf" download="Knoph_O._Ayieko_CV.pdf" class="px-6 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium rounded-lg border border-slate-300 dark:border-slate-700 transition-all inline-flex items-center justify-center gap-2">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-12 bg-slate-100 dark:bg-slate-950 px-6 text-sm">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <!-- Footer Copyright -->
+      <div class="text-slate-600 dark:text-slate-400 text-center md:text-left">
+        &copy; 2026 Knoph O. Ayieko. All rights reserved.
+      </div>
+
+      <!-- Footer Quick Links -->
+      <div class="flex items-center gap-6">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400">LinkedIn</a>
+        <a href="#" class="text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400">Back to Top &uarr;</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // Theme Toggle Logic
+    const htmlElem = document.documentElement;
+    const themeBtn = document.getElementById('theme-toggle');
+    const sunIcon = document.getElementById('sun-icon');
+    const moonIcon = document.getElementById('moon-icon');
+
+    themeBtn.addEventListener('click', () => {
+      if (htmlElem.classList.contains('dark')) {
+        htmlElem.classList.remove('dark');
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+      } else {
+        htmlElem.classList.add('dark');
+        moonIcon.classList.add('hidden');
+        sunIcon.classList.remove('hidden');
+      }
+    });
+
+    // Mobile Menu Drawer Logic
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    const toggleMenu = () => {
+      mobileMenu.classList.toggle('hidden');
+      hamburgerIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    };
+
+    mobileBtn.addEventListener('click', toggleMenu);
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (!mobileMenu.classList.contains('hidden')) {
+          toggleMenu();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
