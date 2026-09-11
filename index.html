@@ -1372,45 +1372,70 @@
       </div>
     </div>
   </div>
-  
+    
   <!-- ================= FOOTER ================= -->
-  <footer class="bg-slate-900 text-slate-400 border-t border-slate-800 py-12 transition-colors duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+  <footer class="bg-slate-900 dark:bg-slate-950 light:bg-slate-100 text-slate-400 light:text-slate-600 border-t border-slate-800 light:border-slate-200 py-10 transition-colors duration-300 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
         
         <!-- Brand & Title -->
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-indigo-600/20 border border-indigo-500/30 overflow-hidden flex items-center justify-center">
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-indigo-600/20 border border-indigo-500/30 overflow-hidden flex-shrink-0 flex items-center justify-center shadow-sm">
             <img src="Knoph.JPG" alt="Knoph Ayieko" class="w-full h-full object-cover" />
           </div>
-          <div>
-            <p class="text-white font-bold text-lg tracking-tight">Knoph Ayieko</p>
-            <p class="text-xs text-slate-400">Software Developer • Tax &amp; Customs Administrator <!-- Tax Technology Specialist --></p>
+          <div class="flex flex-col items-center sm:items-start">
+            <!-- Interactive Name: Lights up on hover and scrolls to top on click -->
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="text-white light:text-slate-900 font-bold text-lg tracking-tight hover:text-indigo-400 light:hover:text-indigo-600 hover:drop-shadow-[0_0_8px_rgba(129,140,248,0.8)] transition-all duration-300">
+              Knoph Ayieko
+            </a>
+            <p class="text-xs text-slate-400 light:text-slate-500">
+              Software Developer • Tax &amp; Customs Administrator <!-- Tax Technology Specialist -->
+            </p>
           </div>
         </div>
-
-        <!-- Direct Social / Professional Links -->
-        <div class="flex items-center gap-4 text-sm">
-          <a href="https://github.com/Knoph1" target="_blank" rel="noopener" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" title="GitHub Profile">
-            <i data-lucide="github" class="w-5 h-5"></i>
+  
+        <!-- Direct Social / Professional Links (SVG Icons) -->
+        <div class="flex items-center gap-3 text-sm">
+          <!-- GitHub -->
+          <a href="https://github.com/Knoph1" target="_blank" rel="noopener" class="p-2.5 rounded-lg bg-slate-800 light:bg-slate-200 text-slate-300 light:text-slate-700 hover:text-white light:hover:text-slate-900 hover:bg-indigo-600 light:hover:bg-indigo-500 hover:text-white transition-all duration-200 shadow-sm" title="GitHub Profile">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
           </a>
-          <a href="https://www.linkedin.com/in/knoph-ayieko" target="_blank" rel="noopener" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" title="LinkedIn Profile">
-            <i data-lucide="linkedin" class="w-5 h-5"></i>
+          
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/knoph-ayieko" target="_blank" rel="noopener" class="p-2.5 rounded-lg bg-slate-800 light:bg-slate-200 text-slate-300 light:text-slate-700 hover:text-white light:hover:text-slate-900 hover:bg-indigo-600 light:hover:bg-indigo-500 hover:text-white transition-all duration-200 shadow-sm" title="LinkedIn Profile">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
           </a>
-          <a href="mailto:knophayieko@gmail.com" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" title="Email Direct">
-            <i data-lucide="mail" class="w-5 h-5"></i>
+  
+          <!-- Mail -->
+          <a href="mailto:knophayieko@gmail.com" class="p-2.5 rounded-lg bg-slate-800 light:bg-slate-200 text-slate-300 light:text-slate-700 hover:text-white light:hover:text-slate-900 hover:bg-indigo-600 light:hover:bg-indigo-500 hover:text-white transition-all duration-200 shadow-sm" title="Email Direct">
+            <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
           </a>
         </div>
-
+  
       </div>
-
-      <div class="mt-8 pt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+  
+      <!-- Sub-footer Bottom Bar -->
+      <div class="mt-8 pt-6 border-t border-slate-800/80 light:border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 light:text-slate-600 gap-4">
         <p>© 2026 Knoph Ayieko. All rights reserved.</p>
         <p class="flex items-center gap-1">
-          Designed &amp; Built with <span class="text-indigo-400">Tailwind CSS</span> &amp; <span class="text-indigo-400">Alpine.js</span>
+          Designed &amp; Built with <span class="text-indigo-400 light:text-indigo-600 font-semibold">Tailwind CSS</span> &amp; <span class="text-indigo-400 light:text-indigo-600 font-semibold">Alpine.js</span>
         </p>
       </div>
     </div>
+  
+    <!-- Scroll Back To Top Floating Action Button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" aria-label="Scroll back to top" class="fixed bottom-6 right-6 p-3 rounded-full bg-indigo-600 text-white shadow-lg hover:bg-indigo-500 hover:scale-110 active:scale-95 transition-all duration-300 z-50 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 dark:focus:ring-offset-slate-900">
+      <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
   </footer>
 
   <!-- Lucide Script Initialization -->
