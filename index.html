@@ -1429,17 +1429,51 @@
         </p>
       </div>
     </div>
-  
-    <!-- Scroll Back To Top Floating Action Button (Glowing & Slow-Twinkling) -->
+      
+    <!-- Scroll Back To Top Floating Action Button -->
     <button 
       onclick="window.scrollTo({top: 0, behavior: 'smooth'});" 
       aria-label="Scroll back to top" 
-      class="fixed bottom-6 right-6 p-3 rounded-full bg-indigo-600 text-white z-50 focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all duration-300 hover:scale-110 active:scale-95 animate-[twinkleGlow_3.5s_ease-in-out_infinite]"
+      class="scroll-top-btn fixed bottom-6 right-6 p-3.5 rounded-full bg-indigo-600 text-white z-50 outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer"
     >
-      <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="w-6 h-6 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
         <path d="M18 15l-6-6-6 6"/>
       </svg>
     </button>
+    
+    <style>
+      /* Base Animation & Glow */
+      .scroll-top-btn {
+        animation: slowTwinkleGlow 3s ease-in-out infinite;
+        transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+      }
+    
+      /* Keyframe definitions for continuous twinkling & pulsing glow */
+      @keyframes slowTwinkleGlow {
+        0%, 100% {
+          opacity: 0.75;
+          box-shadow: 0 0 8px rgba(99, 102, 241, 0.5), 0 0 16px rgba(99, 102, 241, 0.3);
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          box-shadow: 0 0 25px rgba(129, 140, 248, 1), 0 0 50px rgba(99, 102, 241, 0.8);
+          transform: scale(1.12);
+        }
+      }
+    
+      /* Enhanced Hover & Active States */
+      .scroll-top-btn:hover {
+        animation-play-state: paused; /* Pauses twinkle on hover for crisp interaction */
+        background-color: #4f46e5;
+        transform: scale(1.2) translateY(-3px) !important;
+        box-shadow: 0 0 30px rgba(129, 140, 248, 1), 0 0 60px rgba(99, 102, 241, 0.9) !important;
+      }
+    
+      .scroll-top-btn:active {
+        transform: scale(0.95) !important;
+      }
+    </style>
   </footer>
 
   <!-- Lucide Script Initialization -->
