@@ -1430,8 +1430,12 @@
       </div>
     </div>
   
-    <!-- Scroll Back To Top Floating Action Button -->
-    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" aria-label="Scroll back to top" class="fixed bottom-6 right-6 p-3 rounded-full bg-indigo-600 text-white shadow-lg hover:bg-indigo-500 hover:scale-110 active:scale-95 transition-all duration-300 z-50 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 dark:focus:ring-offset-slate-900">
+    <!-- Scroll Back To Top Floating Action Button (Glowing & Slow-Twinkling) -->
+    <button 
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'});" 
+      aria-label="Scroll back to top" 
+      class="fixed bottom-6 right-6 p-3 rounded-full bg-indigo-600 text-white z-50 focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all duration-300 hover:scale-110 active:scale-95 animate-[twinkleGlow_3.5s_ease-in-out_infinite]"
+    >
       <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
         <path d="M18 15l-6-6-6 6"/>
       </svg>
