@@ -1339,7 +1339,7 @@
             if (this.hasAnimated) return;
             this.hasAnimated = true;
             
-            // Metric 1: Projects (0 -> 15)
+            // Metric 1: Projects (0 -> 15) - Slower (~1.8s total)
             let pTarget = 15;
             let pInterval = setInterval(() => {
               this.pCount += 1;
@@ -1347,9 +1347,9 @@
                 this.pCount = pTarget;
                 clearInterval(pInterval);
               }
-            }, 60);
+            }, 120);
         
-            // Metric 2: Active Since (2026 -> 2020)
+            // Metric 2: Active Since (2026 -> 2020) - Slower (~1.5s total)
             let yTarget = 2020;
             let yInterval = setInterval(() => {
               this.yCount -= 1;
@@ -1357,9 +1357,9 @@
                 this.yCount = yTarget;
                 clearInterval(yInterval);
               }
-            }, 120);
+            }, 250);
         
-            // Metric 3: Experience (0 -> 5)
+            // Metric 3: Experience (0 -> 5) - Slower (~1.75s total)
             let eTarget = 5;
             let eInterval = setInterval(() => {
               this.eCount += 1;
@@ -1367,25 +1367,25 @@
                 this.eCount = eTarget;
                 clearInterval(eInterval);
               }
-            }, 180);
+            }, 350);
         
-            // Metric 4: Satisfied Clients (0 -> 100)
+            // Metric 4: Satisfied Clients (0 -> 100) - Smooth roll (~2.5s total)
             let cTarget = 100;
-            let cStep = 4;
+            let cStep = 2;
             let cInterval = setInterval(() => {
               this.cCount += cStep;
               if (this.cCount >= cTarget) {
                 this.cCount = cTarget;
                 clearInterval(cInterval);
               }
-            }, 30);
+            }, 50);
           }
         }" x-init="animate()">
           
           <div class="bg-gradient-to-r from-indigo-900/10 via-slate-900/5 to-indigo-900/10 dark:from-indigo-950/40 dark:via-slate-900/60 dark:to-indigo-950/40 border border-indigo-200/60 dark:border-indigo-900/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:border-indigo-400/50 dark:hover:border-indigo-700/60">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 divide-y sm:divide-y-0 lg:divide-x divide-slate-200 dark:divide-slate-800/80">
               
-              <!-- Metric 1: Total Projects (15+) -->
+              <!-- Metric 1: Total Projects -->
               <div class="group flex items-center gap-4 pt-4 sm:pt-0 sm:px-4 first:pt-0 first:px-0 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="folder-git-2" class="w-6 h-6"></i>
@@ -1399,7 +1399,7 @@
                 </div>
               </div>
         
-              <!-- Metric 2: Active Since (2020) -->
+              <!-- Metric 2: Active Since -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="calendar" class="w-6 h-6"></i>
@@ -1413,7 +1413,7 @@
                 </div>
               </div>
         
-              <!-- Metric 3: Experience (5+ Years) -->
+              <!-- Metric 3: Experience -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="award" class="w-6 h-6"></i>
@@ -1427,7 +1427,7 @@
                 </div>
               </div>
         
-              <!-- Metric 4: Satisfied Clients (100+) -->
+              <!-- Metric 4: Satisfied Clients -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="users" class="w-6 h-6"></i>
