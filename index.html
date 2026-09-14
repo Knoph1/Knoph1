@@ -960,7 +960,7 @@
               </div>
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Omni-Legacy Platform</h3>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Official web platform for Omni-Legacy Limited[cite: 1], a private Kenyan technology firm offering software consulting, cloud services and infrastructure management.
+                Official web platform for Omni-Legacy Limited, a private Kenyan technology firm offering software consulting, cloud services and infrastructure management.
               </p>
             </div>
             <div class="pt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between gap-2">
@@ -2211,12 +2211,12 @@
     });
     
     document.addEventListener('DOMContentLoaded', () => {
-      const swiper = new Swiper('.projectsSwiper', {
+      new Swiper('.projects-swiper', {
         slidesPerView: 1,
         spaceBetween: 24,
         loop: true,
         autoplay: {
-          delay: 3500,
+          delay: 4000,
           disableOnInteraction: false,
         },
         pagination: {
@@ -2224,16 +2224,14 @@
           clickable: true,
         },
         navigation: {
-          nextEl: '#projects-next',
-          prevEl: '#projects-prev',
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
         breakpoints: {
-          // Mobile screen size
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 24,
           },
-          // Desktop screen size
           1024: {
             slidesPerView: 3,
             spaceBetween: 24,
