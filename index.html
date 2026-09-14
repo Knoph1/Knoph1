@@ -35,6 +35,10 @@
   <!-- Tailwind CSS CDN & Alpine.js -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <!-- Swiper JS & CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -931,7 +935,7 @@
         </div>
       </div>
     </section>
-      
+    
     <!-- FEATURED PROJECTS & SYSTEMS SECTION -->
     <section id="projects" class="py-20 bg-slate-50/50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-4 sm:px-6">
       <div class="max-w-6xl mx-auto space-y-12">
@@ -956,7 +960,7 @@
               </div>
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Omni-Legacy Platform</h3>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Official web platform for Omni-Legacy Limited, a private Kenyan technology firm offering software consulting, cloud services and infrastructure management.
+                Official web platform for Omni-Legacy Limited[cite: 1], a private Kenyan technology firm offering software consulting, cloud services and infrastructure management.
               </p>
             </div>
             <div class="pt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between gap-2">
@@ -2202,6 +2206,38 @@
         if (!mobileMenu.classList.contains('hidden')) {
           toggleMenu();
         }
+      });
+    });
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      const swiper = new Swiper('.projectsSwiper', {
+        slidesPerView: 1,
+        spaceBetween: 24,
+        loop: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '#projects-next',
+          prevEl: '#projects-prev',
+        },
+        breakpoints: {
+          // Mobile screen size
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // Desktop screen size
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+          },
+        },
       });
     });
   </script>
