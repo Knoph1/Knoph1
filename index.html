@@ -1327,12 +1327,12 @@
           </div>
           
         </div>
-        
+                
         <!-- Animated Metrics Summary Card Grid -->
         <div class="pt-4" x-data="{
-          pCount: 0,
           yCount: 2026,
           eCount: 0,
+          pCount: 0,
           cCount: 0,
           sCount: 0,
           hasAnimated: false,
@@ -1340,17 +1340,7 @@
             if (this.hasAnimated) return;
             this.hasAnimated = true;
             
-            // Metric 1: Projects (0 -> 15)
-            let pTarget = 15;
-            let pInterval = setInterval(() => {
-              this.pCount += 1;
-              if (this.pCount >= pTarget) {
-                this.pCount = pTarget;
-                clearInterval(pInterval);
-              }
-            }, 120);
-        
-            // Metric 2: Active Since (2026 -> 2020)
+            // Metric 1: Active Since (2026 -> 2020)
             let yTarget = 2020;
             let yInterval = setInterval(() => {
               this.yCount -= 1;
@@ -1360,7 +1350,7 @@
               }
             }, 250);
         
-            // Metric 3: Experience (0 -> 5)
+            // Metric 2: Experience (0 -> 5)
             let eTarget = 5;
             let eInterval = setInterval(() => {
               this.eCount += 1;
@@ -1369,6 +1359,16 @@
                 clearInterval(eInterval);
               }
             }, 350);
+        
+            // Metric 3: Projects (0 -> 15)
+            let pTarget = 15;
+            let pInterval = setInterval(() => {
+              this.pCount += 1;
+              if (this.pCount >= pTarget) {
+                this.pCount = pTarget;
+                clearInterval(pInterval);
+              }
+            }, 120);
         
             // Metric 4: Satisfied Clients (0 -> 100)
             let cTarget = 100;
@@ -1397,22 +1397,8 @@
           <div class="bg-gradient-to-r from-indigo-900/10 via-slate-900/5 to-indigo-900/10 dark:from-indigo-950/40 dark:via-slate-900/60 dark:to-indigo-950/40 border border-indigo-200/60 dark:border-indigo-900/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:border-indigo-400/50 dark:hover:border-indigo-700/60">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8 divide-y sm:divide-y-0 xl:divide-x divide-slate-200 dark:divide-slate-800/80">
               
-              <!-- Metric 1: Total Projects (15+) -->
+              <!-- Metric 1: Active Since (2020) -->
               <div class="group flex items-center gap-4 pt-4 sm:pt-0 sm:px-4 first:pt-0 first:px-0 transition-transform duration-300 hover:-translate-y-1">
-                <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
-                  <i data-lucide="folder-git-2" class="w-6 h-6"></i>
-                </div>
-                <div>
-                  <div class="flex items-baseline gap-0.5">
-                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="pCount">0</span>
-                    <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">+</span>
-                  </div>
-                  <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Projects Delivered</p>
-                </div>
-              </div>
-        
-              <!-- Metric 2: Active Since (2020) -->
-              <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="calendar" class="w-6 h-6"></i>
                 </div>
@@ -1425,7 +1411,7 @@
                 </div>
               </div>
         
-              <!-- Metric 3: Experience (5+ Years) -->
+              <!-- Metric 2: Experience (5+ Years) -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="award" class="w-6 h-6"></i>
@@ -1436,6 +1422,20 @@
                     <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">+</span>
                   </div>
                   <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Years Experience</p>
+                </div>
+              </div>
+        
+              <!-- Metric 3: Total Projects (15+) -->
+              <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
+                <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
+                  <i data-lucide="folder-git-2" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="flex items-baseline gap-0.5">
+                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="pCount">0</span>
+                    <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">+</span>
+                  </div>
+                  <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Projects Delivered</p>
                 </div>
               </div>
         
