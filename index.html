@@ -1349,8 +1349,8 @@
               }
             }, 120);
         
-            // Metric 2: Active Since (2026 -> 2000) - Slower (~1.5s total)
-            let yTarget = 2000;
+            // Metric 2: Active Since (2026 -> 2020) - Slower (~1.5s total)
+            let yTarget = 2020;
             let yInterval = setInterval(() => {
               this.yCount -= 1;
               if (this.yCount <= yTarget) {
@@ -1407,7 +1407,7 @@
                 <div>
                   <div class="flex items-baseline gap-1">
                     <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">Since</span>
-                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="yCount">2026</span>
+                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="yCount">2027</span>
                   </div>
                   <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Active Systems</p>
                 </div>
