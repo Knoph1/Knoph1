@@ -1330,46 +1330,46 @@
 
         <!-- NEWLY ADDED: Animated Metrics Summary Card Grid -->
         <div class="pt-4" x-data="{
-          pCount: 0,
-          yCount: 2026,
-          eCount: 0,
-          hasAnimated: false,
-          animate() {
-            if (this.hasAnimated) return;
-            this.hasAnimated = true;
-            
-            // Animate Projects (0 -> 15)
-            let pTarget = 15;
-            let pStep = Math.ceil(pTarget / 25);
-            let pInterval = setInterval(() => {
-              this.pCount += pStep;
-              if (this.pCount >= pTarget) {
-                this.pCount = pTarget;
-                clearInterval(pInterval);
-              }
-            }, 50);
-
-            // Animate Start Year (2026 -> 2020)
-            let yTarget = 2020;
-            let yInterval = setInterval(() => {
-              this.yCount -= 1;
-              if (this.yCount <= yTarget) {
-                this.yCount = yTarget;
-                clearInterval(yInterval);
-              }
-            }, 100);
-
-            // Animate Years of Experience (0 -> 5)
-            let eTarget = 5;
-            let eInterval = setInterval(() => {
-              this.eCount += 1;
-              if (this.eCount >= eTarget) {
-                this.eCount = eTarget;
-                clearInterval(eInterval);
-              }
-            }, 200);
-          }
-        }" x-intersect.once="animate()">
+        pCount: 0,
+        yCount: 2026,
+        eCount: 0,
+        hasAnimated: false,
+        animate() {
+          if (this.hasAnimated) return;
+          this.hasAnimated = true;
+          
+          // Animate Projects (0 -> 15)
+          let pTarget = 15;
+          let pStep = 1;
+          let pInterval = setInterval(() => {
+            this.pCount += pStep;
+            if (this.pCount >= pTarget) {
+              this.pCount = pTarget;
+              clearInterval(pInterval);
+            }
+          }, 60);
+      
+          // Animate Start Year (2026 -> 2020)
+          let yTarget = 2020;
+          let yInterval = setInterval(() => {
+            this.yCount -= 1;
+            if (this.yCount <= yTarget) {
+              this.yCount = yTarget;
+              clearInterval(yInterval);
+            }
+          }, 120);
+      
+          // Animate Years of Experience (0 -> 5)
+          let eTarget = 5;
+          let eInterval = setInterval(() => {
+            this.eCount += 1;
+            if (this.eCount >= eTarget) {
+              this.eCount = eTarget;
+              clearInterval(eInterval);
+            }
+          }, 180);
+        }
+      }" x-init="animate()">
           <div class="bg-gradient-to-r from-indigo-900/10 via-slate-900/5 to-indigo-900/10 dark:from-indigo-950/40 dark:via-slate-900/60 dark:to-indigo-950/40 border border-indigo-200/60 dark:border-indigo-900/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-md">
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-slate-200 dark:divide-slate-800/80">
               
