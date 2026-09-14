@@ -942,7 +942,7 @@
     
     <!-- FEATURED PROJECTS & SYSTEMS SECTION WITH SLIDER -->
     <section id="projects" class="py-20 bg-slate-50/50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-4 sm:px-6">
-      <div class="max-w-6xl mx-auto space-y-8" x-data="{
+      <div class="max-w-6xl mx-auto space-y-12" x-data="{
         scrollLeft() { $refs.slider.scrollBy({ left: -340, behavior: 'smooth' }) },
         scrollRight() { $refs.slider.scrollBy({ left: 340, behavior: 'smooth' }) }
       }">
@@ -969,7 +969,7 @@
         </div>
     
         <!-- Horizontal Carousel / Slider -->
-        <div x-ref="slider" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-6 pt-2">
+        <div x-ref="slider" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-2 pt-2">
     
           <!-- 1. Omni-Legacy Platform (2026) -->
           <div class="min-w-[290px] sm:min-w-[340px] max-w-[340px] snap-start p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 flex flex-col justify-between hover:shadow-xl transition-all shrink-0">
@@ -1327,6 +1327,98 @@
           </div>
           
         </div>
+
+        <!-- NEWLY ADDED: Animated Metrics Summary Card Grid -->
+        <div class="pt-4" x-data="{
+          pCount: 0,
+          yCount: 2026,
+          eCount: 0,
+          hasAnimated: false,
+          animate() {
+            if (this.hasAnimated) return;
+            this.hasAnimated = true;
+            
+            // Animate Projects (0 -> 15)
+            let pTarget = 15;
+            let pStep = Math.ceil(pTarget / 25);
+            let pInterval = setInterval(() => {
+              this.pCount += pStep;
+              if (this.pCount >= pTarget) {
+                this.pCount = pTarget;
+                clearInterval(pInterval);
+              }
+            }, 50);
+
+            // Animate Start Year (2026 -> 2020)
+            let yTarget = 2020;
+            let yInterval = setInterval(() => {
+              this.yCount -= 1;
+              if (this.yCount <= yTarget) {
+                this.yCount = yTarget;
+                clearInterval(yInterval);
+              }
+            }, 100);
+
+            // Animate Years of Experience (0 -> 5)
+            let eTarget = 5;
+            let eInterval = setInterval(() => {
+              this.eCount += 1;
+              if (this.eCount >= eTarget) {
+                this.eCount = eTarget;
+                clearInterval(eInterval);
+              }
+            }, 200);
+          }
+        }" x-intersect.once="animate()">
+          <div class="bg-gradient-to-r from-indigo-900/10 via-slate-900/5 to-indigo-900/10 dark:from-indigo-950/40 dark:via-slate-900/60 dark:to-indigo-950/40 border border-indigo-200/60 dark:border-indigo-900/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-md">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-slate-200 dark:divide-slate-800/80">
+              
+              <!-- Metric 1: Total Projects -->
+              <div class="flex items-center gap-4 pt-4 sm:pt-0 sm:px-4 first:pt-0 first:px-0">
+                <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0">
+                  <i data-lucide="folder-git-2" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="flex items-baseline gap-0.5">
+                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="pCount">0</span>
+                    <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">+</span>
+                  </div>
+                  <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Projects Delivered</p>
+                </div>
+              </div>
+
+              <!-- Metric 2: Active Since -->
+              <div class="flex items-center gap-4 pt-6 sm:pt-0 sm:px-4">
+                <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0">
+                  <i data-lucide="calendar" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="flex items-baseline gap-1">
+                    <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">Since</span>
+                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="yCount">2026</span>
+                  </div>
+                  <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Active Systems Architecture</p>
+                </div>
+              </div>
+
+              <!-- Metric 3: Experience -->
+              <div class="flex items-center gap-4 pt-6 sm:pt-0 sm:px-4">
+                <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0">
+                  <i data-lucide="award" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="flex items-baseline gap-0.5">
+                    <span class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight" x-text="eCount">0</span>
+                    <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">+</span>
+                  </div>
+                  <p class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-0.5">Years Experience</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
