@@ -945,7 +945,28 @@
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Featured Projects &amp; Systems</h2>
           <p class="text-slate-600 dark:text-slate-400">Categorized showcase of deployed software platforms, public sector tools and enterprise systems, ordered chronologically.</p>
         </div>
-    
+        
+        <!-- Swiper Slider Container -->
+        <div class="swiper mySwiper max-w-4xl mx-auto rounded-2xl shadow-lg">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide bg-white dark:bg-slate-900 p-8 rounded-2xl">
+              <h3 class="text-xl font-bold">Slide Title 1</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">Slide description goes here...</p>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide bg-white dark:bg-slate-900 p-8 rounded-2xl">
+              <h3 class="text-xl font-bold">Slide Title 2</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">Slide description goes here...</p>
+            </div>
+          </div>
+        
+          <!-- Navigation Buttons & Pagination -->
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        
         <!-- Projects Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     
@@ -2207,18 +2228,13 @@
         if (!mobileMenu.classList.contains('hidden')) {
           toggleMenu();
         }
-      });
-    });
-    
-    document.addEventListener('DOMContentLoaded', () => {
-      new Swiper('.projects-swiper', {
+
+    // Swiper.js Slider
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.mySwiper', {
         slidesPerView: 1,
-        spaceBetween: 24,
+        spaceBetween: 30,
         loop: true,
-        autoplay: {
-          delay: 4000,
-          disableOnInteraction: false,
-        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
@@ -2228,15 +2244,11 @@
           prevEl: '.swiper-button-prev',
         },
         breakpoints: {
-          640: {
+          768: {
             slidesPerView: 2,
-            spaceBetween: 24,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 24,
-          },
-        },
+            spaceBetween: 20,
+          }
+        }
       });
     });
   </script>
