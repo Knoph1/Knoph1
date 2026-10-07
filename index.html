@@ -905,7 +905,7 @@
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">Information Systems Audit and Control Association (ISACA)</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    ISACA Professional Membership. Specializing in IT Governance, Cybersecurity & Application Security Architecture — Member ID: ISACA-1048293.
+                    ISACA Professional Membership. Specializing in IT Governance, Cybersecurity & Application Security Architecture — Member ID: <strong>ISACA-1048293</strong>.
                   </p>
                 </div>
                 <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-200 dark:border-slate-800">
@@ -917,7 +917,7 @@
               <div class="w-full flex-shrink-0 p-6 sm:p-8 space-y-4 flex flex-col justify-between min-h-[260px]">
                 <div class="space-y-3">
                   <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 rounded">
-                    Boys' Club
+                    Executive Club
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">SaintyMen Club</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -928,8 +928,8 @@
                   Founding Member (2026 – Present)
                 </span>
               </div>
-
-              <!-- Slide 3: SaintyMen Club -->
+    
+              <!-- Slide 3: UoKCSA Alumni -->
               <div class="w-full flex-shrink-0 p-6 sm:p-8 space-y-4 flex flex-col justify-between min-h-[260px]">
                 <div class="space-y-3">
                   <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 rounded">
@@ -937,7 +937,7 @@
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">UoKCSA Alumni</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    Pioneer executive and active member of <strong>University of Kabianga Catholic Students' Alumni Association</strong> (UoKCSA Alumni).
+                    Pioneer executive/leader and active member of <strong>University of Kabianga Catholic Students' Alumni Association</strong> (UoKCSA Alumni).
                   </p>
                 </div>
                 <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-200 dark:border-slate-800">
@@ -953,7 +953,7 @@
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">Computer Society of Kenya (CSK)</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    CSK Professional Membership. Certified Professional Member — Reg No: CSK-65987.
+                    CSK Professional Membership. Certified Professional Member — Reg No: <strong>CSK-65987</strong>.
                   </p>
                 </div>
                 <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-200 dark:border-slate-800">
@@ -969,14 +969,14 @@
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">Association of Computing Practitioners – Kenya (ACPK)</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    ACPK Designate Membership. Professional Member Designate — Reg No: PM000694.
+                    ACPK Designate Membership. Professional Member Designate — Reg No: <strong>PM000694</strong>.
                   </p>
                 </div>
                 <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-200 dark:border-slate-800">
                   Active Member (2024 – Present)
                 </span>
               </div>
-
+    
               <!-- Slide 6: CLC in Kenya -->
               <div class="w-full flex-shrink-0 p-6 sm:p-8 space-y-4 flex flex-col justify-between min-h-[260px]">
                 <div class="space-y-3">
@@ -985,7 +985,7 @@
                   </span>
                   <h3 class="text-xl font-bold text-slate-900 dark:text-white">Christian Life Community (CLC) in Kenya</h3>
                   <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                    Founding and active member of <strong>St. Peter Faber, CLC Group</strong> within CLC in Kenya.
+                    Founding and active member of <strong>St. Peter Faber, CLC Group</strong> within <strong>CLC in Kenya</strong>.
                   </p>
                 </div>
                 <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-200 dark:border-slate-800">
@@ -1010,6 +1010,8 @@
             <button class="dot w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 transition-all" aria-label="Go to slide 2"></button>
             <button class="dot w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 transition-all" aria-label="Go to slide 3"></button>
             <button class="dot w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 transition-all" aria-label="Go to slide 4"></button>
+            <button class="dot w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 transition-all" aria-label="Go to slide 5"></button>
+            <button class="dot w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 transition-all" aria-label="Go to slide 6"></button>
           </div>
         </div>
       </div>
@@ -1023,18 +1025,19 @@
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
         const dots = document.querySelectorAll('.dot');
-        const totalSlides = dots.length;
+        const slides = track.children;
+        const totalSlides = slides.length;
         
         let currentIndex = 0;
         let slideInterval;
-        const intervalTime = 4000; // Time in milliseconds per slide (4s)
+        const intervalTime = 4000;
     
         function updateCarousel() {
           track.style.transform = `translateX(-${currentIndex * 100}%)`;
           dots.forEach((dot, index) => {
             if (index === currentIndex) {
               dot.classList.remove('bg-slate-300', 'dark:bg-slate-700');
-              dot.classList.add('bg-indigo-600', 'w-6'); // Active indicator stretch
+              dot.classList.add('bg-indigo-600', 'w-6');
             } else {
               dot.classList.add('bg-slate-300', 'dark:bg-slate-700');
               dot.classList.remove('bg-indigo-600', 'w-6');
@@ -1060,7 +1063,6 @@
           clearInterval(slideInterval);
         }
     
-        // Manual navigation event handlers
         nextBtn.addEventListener('click', () => {
           nextSlide();
           stopAutoSlide();
@@ -1082,11 +1084,9 @@
           });
         });
     
-        // Pause on hover
         container.addEventListener('mouseenter', stopAutoSlide);
         container.addEventListener('mouseleave', startAutoSlide);
     
-        // Initialize auto-sliding
         updateCarousel();
         startAutoSlide();
       });
@@ -1503,7 +1503,7 @@
             }, 250);
         
             // Metric 2: Experience (0 -> 5)
-            let eTarget = 5;
+            let eTarget = 6;
             let eInterval = setInterval(() => {
               this.eCount += 1;
               if (this.eCount >= eTarget) {
@@ -1533,8 +1533,8 @@
               }
             }, 50);
         
-            // Metric 5: Satisfaction Rate (0 -> 92%)
-            let sTarget = 92;
+            // Metric 5: Satisfaction Rate (0 -> 99%)
+            let sTarget = 99;
             let sStep = 2;
             let sInterval = setInterval(() => {
               this.sCount += sStep;
@@ -1563,7 +1563,7 @@
                 </div>
               </div>
         
-              <!-- Metric 2: Experience (5+ Years) -->
+              <!-- Metric 2: Experience (6+ Years) -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="award" class="w-6 h-6"></i>
@@ -1605,7 +1605,7 @@
                 </div>
               </div>
         
-              <!-- Metric 5: Satisfaction Rate (92%) -->
+              <!-- Metric 5: Satisfaction Rate (99%) -->
               <div class="group flex items-center gap-4 pt-6 sm:pt-0 sm:px-4 transition-transform duration-300 hover:-translate-y-1">
                 <div class="p-3.5 bg-indigo-500/10 dark:bg-indigo-400/10 border border-indigo-500/20 rounded-xl text-indigo-600 dark:text-indigo-400 shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-400/20">
                   <i data-lucide="thumbs-up" class="w-6 h-6"></i>
@@ -1636,7 +1636,7 @@
         <div class="text-center max-w-2xl mx-auto space-y-3">
           <span class="text-xs font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-full">Continuous Growth</span>
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Trainings, Workshops & Seminars</h2>
-          <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Professional bootcamps, tactical operational training, tech summits, and developer workshops.</p>
+          <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Professional bootcamps, tactical operational training, tech summits and developer workshops.</p>
         </div>
     
         <!-- Interactive Category Filter Tabs -->
@@ -1665,8 +1665,8 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Odoo Experience Africa 2026</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">Odoo • Ngong Racecourse – Waterfront Grounds</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Participated in specialized technical sessions and free masterclasses covering modern open-source ERP systems, business operations, finance, and enterprise application workflows.</li>
-                <li>Engaged with over 100 regional industry leaders, software developers, and business transformation experts exploring custom module implementations and enterprise automation.</li>
+                <li>Participated in specialized technical sessions and free masterclasses covering modern open-source ERP systems, business operations, finance and enterprise application workflows.</li>
+                <li>Engaged with over 100 regional industry leaders, software developers and business transformation experts exploring custom module implementations and enterprise automation.</li>
               </ul>
             </div>
           </div>
@@ -1682,7 +1682,7 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Ignatian Youth Leadership Workshop II</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">KESRA • Christian Life Community in Kenya</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Focused on practical tools for values-driven decision-making, organizational integrity, technological advancement, mental health, personal branding, and servant leadership within youth programs.</li>
+                <li>Focused on practical tools for values-driven decision-making, organizational integrity, technological advancement, mental health, personal branding and servant leadership within youth programs.</li>
                 <li>Reviewed practical frameworks for digital eTIMS transaction auditing and risk identification.</li>
               </ul>
             </div>
@@ -1699,8 +1699,8 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Paramilitary Training</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">Kenya Revenue Authority • APTC Embakasi & Mt. Kenya Region</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Completed intensive 49-day tactical, compliance enforcement, and physical training program.</li>
-                <li>Built foundational discipline, institutional leadership, and field security protocols for tax administration.</li>
+                <li>Completed intensive 49-day tactical, compliance enforcement and physical training program.</li>
+                <li>Built foundational discipline, institutional leadership and field security protocols for tax administration.</li>
               </ul>
             </div>
           </div>
@@ -1716,8 +1716,8 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">Foundational AI Training & Cyber Shujaa Summit</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">ICT Authority, Salaam Technologies & Cyber Shujaa</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Gained core expertise in foundational artificial intelligence concepts, prompt engineering, machine learning models, and public sector AI integration.</li>
-                <li>Executed enterprise vulnerability assessments, penetration testing methodologies, and reviewed data privacy compliance under the KDPA.</li>
+                <li>Gained core expertise in foundational artificial intelligence concepts, prompt engineering, machine learning models and public sector AI integration.</li>
+                <li>Executed enterprise vulnerability assessments, penetration testing methodologies and reviewed data privacy compliance under the KDPA.</li>
               </ul>
             </div>
           </div>
@@ -1733,7 +1733,7 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">De{c0}dE Tech Summit 3.0</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">Safaricom PLC • Sarit Expo Centre</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Attended technical tracks covering M-PESA API integrations, microservices architecture, and cloud-native deployments.</li>
+                <li>Attended technical tracks covering M-PESA API integrations, microservices architecture and cloud-native deployments.</li>
                 <li>Engaged with regional engineering teams on building scalable web infrastructure and fintech solutions.</li>
               </ul>
             </div>
@@ -1750,7 +1750,7 @@
               <h3 class="text-lg font-bold text-slate-900 dark:text-white">ALX Africa Founder & Tech Leadership Bootcamp</h3>
               <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-3">ALX Africa</p>
               <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
-                <li>Mastered tech business fundamentals, product-market fit validation, and modern full-stack development practices.</li>
+                <li>Mastered tech business fundamentals, product-market fit validation and modern full-stack development practices.</li>
                 <li>Applied agile management methodologies and venture execution strategies.</li>
               </ul>
             </div>
@@ -1770,7 +1770,7 @@
         <div class="text-center max-w-2xl mx-auto space-y-3">
           <span class="text-xs font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-full">Impact & Recognition</span>
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Professional Highlights</h2>
-          <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Key achievements, leadership roles, venture milestones, and technical contributions.</p>
+          <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base">Key achievements, leadership roles, venture milestones and technical contributions.</p>
         </div>
     
         <!-- Highlights Grid -->
@@ -1790,7 +1790,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">Omni-Legacy Limited</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Established a Kenyan private technology firm specializing in enterprise software consulting, custom cloud solutions, and digital transformation services.
+                Established a Kenyan private technology firm specializing in enterprise software consulting, custom cloud solutions and digital transformation services.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80">
@@ -1814,7 +1814,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">Omni-Code 25.0: The Founder's Journey</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Authored a technical memoir detailing full-stack architectural engineering, tech venture leadership, and lessons learned building scalable systems in Africa.
+                Authored a technical memoir detailing full-stack architectural engineering, tech venture leadership and lessons learned building scalable systems in Africa.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs text-slate-500">
@@ -1839,7 +1839,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">SaintyMen Club</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Co-founded an executive group dedicated to peer leadership, mentorship, strategic networking, and community growth.
+                Co-founded an executive group dedicated to peer leadership, mentorship, strategic networking and community growth.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs text-slate-500">
@@ -1862,7 +1862,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">ALX Africa Excellence Feature</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Publicly featured by ALX Africa for strategic learning, technical discipline, outstanding project delivery, and exemplary community engagement.
+                Publicly featured by ALX Africa for strategic learning, technical discipline, outstanding project delivery and exemplary community engagement.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80">
@@ -1886,7 +1886,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">UoK Research & Innovation Portal</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Architected and deployed the official university portal managing academic grants, research proposals, and institutional innovation workflows.
+                Architected and deployed the official university portal managing academic grants, research proposals and institutional innovation workflows.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80">
@@ -1910,7 +1910,7 @@
                 <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">Digital Transformation & Leadership</h3>
               </div>
               <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                Formally recognized by university leadership for spearheading digital transformation, serving as Class Representative, and driving student tech clubs.
+                Formally recognized by university leadership for spearheading digital transformation, serving as Class Representative and driving student tech clubs.
               </p>
             </div>
             <div class="pt-4 mt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs text-slate-500">
@@ -2149,6 +2149,8 @@
               <p><strong>Certificate in Tax & Customs Administration</strong>, KESRA</p>
               <p><strong>Master of Science in Information Technology</strong>, JKUAT</p>
               <p><strong>Bachelor of Science (Information Technology)</strong>, University of Kabianga</p>
+              <br />
+              <p><strong>Affiliation:</strong>ISACA-1048293 • CSK-65987 • ACPK Designate (PM000694)</p>
               <br />
               <p><strong>Languages:</strong> English, Swahili, Luhya, Kenya Sign Language<br /><strong>Driving License:</strong> Valid • <strong>Passport:</strong> Travel-Ready</p>
             </div>
