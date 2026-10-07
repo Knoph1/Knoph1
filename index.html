@@ -997,10 +997,10 @@
           </div>
     
           <!-- Navigation Arrows -->
-          <button id="prev-btn" aria-label="Previous Slide" class="absolute left-[-1.5rem] top-1/2 -translate-y-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 p-2 rounded-full shadow-md hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <button id="prev-btn" aria-label="Previous Slide" class="absolute left-[-1.5rem] top-1/2 -translate-y-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 p-2 rounded-full shadow-md hover:bg-slate-100 dark:hover:bg-slate-700 transition z-10">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
           </button>
-          <button id="next-btn" aria-label="Next Slide" class="absolute right-[-1.5rem] top-1/2 -translate-y-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 p-2 rounded-full shadow-md hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <button id="next-btn" aria-label="Next Slide" class="absolute right-[-1.5rem] top-1/2 -translate-y-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 p-2 rounded-full shadow-md hover:bg-slate-100 dark:hover:bg-slate-700 transition z-10">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
           </button>
     
@@ -1025,17 +1025,35 @@
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
         const dots = document.querySelectorAll('.dot');
-        const slides = track.children;
-        const totalSlides = slides.length;
         
-        let currentIndex = 0;
+        const originalSlides = Array.from(track.children);
+        const realSlideCount = originalSlides.length;
+        
+        // Create clones for infinite continuous loop
+        const firstClone = originalSlides[0].cloneNode(true);
+        const lastClone = originalSlides[realSlideCount - 1].cloneNode(true);
+        
+        firstClone.id = 'first-clone';
+        lastClone.id = 'last-clone';
+        
+        track.appendChild(firstClone);
+        track.insertBefore(lastClone, originalSlides[0]);
+        
+        // Index mapping (1 to realSlideCount are original slides)
+        let currentIndex = 1;
+        let isTransitioning = false;
         let slideInterval;
-        const intervalTime = 4000;
+        const intervalTime = 4000; // 4s per slide
     
-        function updateCarousel() {
-          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        // Initial positioning without animation
+        track.style.transition = 'none';
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    
+        function updateDots() {
+          // Map track index to 0-based original slide index
+          let activeDotIndex = (currentIndex - 1 + realSlideCount) % realSlideCount;
           dots.forEach((dot, index) => {
-            if (index === currentIndex) {
+            if (index === activeDotIndex) {
               dot.classList.remove('bg-slate-300', 'dark:bg-slate-700');
               dot.classList.add('bg-indigo-600', 'w-6');
             } else {
@@ -1045,15 +1063,37 @@
           });
         }
     
+        function moveToSlide(index) {
+          if (isTransitioning) return;
+          isTransitioning = true;
+          currentIndex = index;
+          track.style.transition = 'transform 0.5s ease-in-out';
+          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+          updateDots();
+        }
+    
         function nextSlide() {
-          currentIndex = (currentIndex + 1) % totalSlides;
-          updateCarousel();
+          moveToSlide(currentIndex + 1);
         }
     
         function prevSlide() {
-          currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-          updateCarousel();
+          moveToSlide(currentIndex - 1);
         }
+    
+        // Seamless instant position reset when touching clones
+        track.addEventListener('transitionend', () => {
+          isTransitioning = false;
+          if (track.children[currentIndex].id === 'first-clone') {
+            track.style.transition = 'none';
+            currentIndex = 1;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+          }
+          if (track.children[currentIndex].id === 'last-clone') {
+            track.style.transition = 'none';
+            currentIndex = realSlideCount;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+          }
+        });
     
         function startAutoSlide() {
           slideInterval = setInterval(nextSlide, intervalTime);
@@ -1077,8 +1117,7 @@
     
         dots.forEach((dot, index) => {
           dot.addEventListener('click', () => {
-            currentIndex = index;
-            updateCarousel();
+            moveToSlide(index + 1);
             stopAutoSlide();
             startAutoSlide();
           });
@@ -1087,7 +1126,7 @@
         container.addEventListener('mouseenter', stopAutoSlide);
         container.addEventListener('mouseleave', startAutoSlide);
     
-        updateCarousel();
+        updateDots();
         startAutoSlide();
       });
     </script>
