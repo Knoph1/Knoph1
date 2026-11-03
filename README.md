@@ -118,5 +118,5 @@ Build for people. Code with purpose. Collaborate for impact.
 -->
 
 <div style="display: flex; flex-direction: column; justify-content: center;">
-  <p style="margin: 0; font-weight: bold;">&copy; 2026 | Knoph Ayieko | All rights reserves.</p>
+  <p style="margin: 0; font-weight: bold;">&copy; 2026 · Knoph Ayieko · All rights reserves.</p>
 </div>
