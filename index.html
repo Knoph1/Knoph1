@@ -216,15 +216,35 @@
         </span>
       </a>
 
-      <!-- Desktop Links -->
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <!-- Desktop Links with Dropdowns -->
+      <nav class="hidden md:flex items-center gap-5 text-sm font-medium">
         <a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
-        <a href="#experience" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Career</a>
-        <a href="#skills" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Skills</a>
-        <a href="#certifications" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Certifications</a>
-        <a href="#affiliation" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Affiliation</a>
+
+        <!-- Background Dropdown (Career, Skills, Trainings) -->
+        <div class="relative" x-data="{ open: false }" @mouseleave="open = false">
+          <button @click="open = !open" @mouseenter="open = true" class="flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors py-2 focus:outline-none">
+            Background <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform" :class="open ? 'rotate-180' : ''"></i>
+          </button>
+          <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white dark:bg-slate-900 rounded-xl shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-50" style="display: none;">
+            <a href="#experience" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Career</a>
+            <a href="#skills" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Skills</a>
+            <a href="#trainings-workshops" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Trainings</a>
+          </div>
+        </div>
+
+        <!-- Credentials Dropdown (Education, Certifications, Affiliation) -->
+        <div class="relative" x-data="{ open: false }" @mouseleave="open = false">
+          <button @click="open = !open" @mouseenter="open = true" class="flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors py-2 focus:outline-none">
+            Credentials <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform" :class="open ? 'rotate-180' : ''"></i>
+          </button>
+          <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white dark:bg-slate-900 rounded-xl shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-50" style="display: none;">
+            <a href="#education" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Education</a>
+            <a href="#certifications" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Certifications</a>
+            <a href="#affiliation" @click="open = false" class="block px-4 py-2 hover:bg-indigo-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-xs font-semibold">Affiliation</a>
+          </div>
+        </div>
+
         <a href="#projects" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
-        <a href="#trainings-workshops" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Trainings</a>
         <a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
       </nav>
 
@@ -267,14 +287,34 @@
     </div>
 
     <!-- Mobile Drawer -->
-    <nav id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-6 pt-3 pb-6 space-y-3">
+    <nav id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-6 pt-3 pb-6 space-y-3" x-data="{ bgOpen: false, credOpen: false }">
       <a href="#about" class="mobile-link block text-base font-medium">About</a>
-      <a href="#experience" class="mobile-link block text-base font-medium">Career</a>
-      <a href="#skills" class="mobile-link block text-base font-medium">Skills</a>
-      <a href="#certifications" class="mobile-link block text-base font-medium">Certifications</a>
-      <a href="#affiliation" class="mobile-link block text-base font-medium">Affiliation</a>
+      
+      <!-- Background Submenu Accordion -->
+      <div>
+        <button @click="bgOpen = !bgOpen" class="flex items-center justify-between w-full text-base font-medium py-1">
+          <span>Background</span> <i data-lucide="chevron-down" class="w-4 h-4 transition-transform" :class="bgOpen ? 'rotate-180' : ''"></i>
+        </button>
+        <div x-show="bgOpen" class="pl-4 pt-2 space-y-2 border-l-2 border-indigo-500/30 ml-2" style="display: none;">
+          <a href="#experience" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Career</a>
+          <a href="#skills" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Skills</a>
+          <a href="#trainings-workshops" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Trainings</a>
+        </div>
+      </div>
+
+      <!-- Credentials Submenu Accordion -->
+      <div>
+        <button @click="credOpen = !credOpen" class="flex items-center justify-between w-full text-base font-medium py-1">
+          <span>Credentials</span> <i data-lucide="chevron-down" class="w-4 h-4 transition-transform" :class="credOpen ? 'rotate-180' : ''"></i>
+        </button>
+        <div x-show="credOpen" class="pl-4 pt-2 space-y-2 border-l-2 border-indigo-500/30 ml-2" style="display: none;">
+          <a href="#education" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Education</a>
+          <a href="#certifications" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Certifications</a>
+          <a href="#affiliation" class="mobile-link block text-sm font-medium text-slate-600 dark:text-slate-400">Affiliation</a>
+        </div>
+      </div>
+
       <a href="#projects" class="mobile-link block text-base font-medium">Projects</a>
-      <a href="#trainings-workshops" class="mobile-link block text-base font-medium">Trainings</a>
       <a href="#contact" class="mobile-link block text-base font-medium">Contact</a>
       <button @click="docModal = true;" class="mobile-link inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-md mt-2">
         <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -790,6 +830,110 @@
       </div>
     </section>
 
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-20 px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        <div class="text-center max-w-2xl mx-auto space-y-3">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Education</h2>
+          <p class="text-slate-600 dark:text-slate-400">Academic foundation and specialized professional qualifications.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- KESRA -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 rounded">
+                Revenue Administration
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Certificate in Tax & Customs Administration</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">Kenya School of Revenue Administration (KESRA)</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Intensive professional training in corporate compliance, customs procedures, fiscal frameworks and tax operations.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Ongoing</span>
+          </div>
+
+          <!-- JKUAT -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 rounded">
+                Postgraduate Study
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Master of Science in IT</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">Jomo Kenyatta University of Agriculture & Technology (JKUAT), GPO Nairobi</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Advanced studies focusing on enterprise information systems, IT governance, network architecture and software systems security.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Ongoing</span>
+          </div>
+
+          <!-- University of Kabianga -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 rounded">
+                Undergraduate Degree
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Bachelor of Science in IT</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">University of Kabianga, Kericho</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Foundational training in software engineering, database design, web technologies and systems administration.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Graduated</span>
+          </div>
+
+          <!-- High School -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 rounded">
+                Secondary Education
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Kenya Certificate of Secondary Education (KCSE)</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">St. Peter’s Mumias Boys High School, Kakamenga</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Completed secondary school education with a strong foundation in sciences, mathematics and academic disciplines.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Done</span>
+          </div>
+
+          <!-- Primary School -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 rounded">
+                Primary Education
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Kenya Certificate of Primary Education (KCPE)</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">Patrician Primary School, Eldoret</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Completed eight years of comprehensive foundational primary education and academic development.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Done</span>
+          </div>
+
+          <!-- Kindergarten / Nursery School -->
+          <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm hover:border-indigo-500/50 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <span class="inline-block text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-300 rounded">
+                Early Childhood Education
+              </span>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Nursery & Pre-Schooling</h3>
+              <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">Baraka Academy</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                Early childhood development focusing on basic literacy, numeracy and social foundational learning.
+              </p>
+            </div>
+            <span class="text-[11px] font-semibold text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/80 block">Done</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
     <!-- CERTIFICATIONS SECTION -->
     <section id="certifications" class="py-20 px-4 sm:px-6">
       <div class="max-w-5xl mx-auto space-y-12">
