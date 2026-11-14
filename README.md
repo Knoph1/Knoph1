@@ -1,4 +1,4 @@
-Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋  
+Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** (Knoph1)👋  
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndwd2dlYThvczl0ZXc3cjduMzNjZ3lyNnljZnpldDdsM2IwdTdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" height="210">
 
@@ -18,7 +18,8 @@ Greetings from, I, **[Knoph Ayieko](https://github.com/Knoph1)** 👋
 
 ---  
 ## 🚀 Professional Profile  
-I’m a Kenyan software developer, IT specialist, tech entrepreneur and Tax & Customs Administrator. Guided by the philosophy *"Efficient systems are the backbone of strong institutions"*.
+I’m a Kenyan software developer, IT specialist, tech entrepreneur and Tax & Customs Administrator.  
+Guided by the philosophy *"Efficient systems are the backbone of strong institutions"*.
 
 ---  
 ## 📈 GitHub Stats
